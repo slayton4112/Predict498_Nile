@@ -7,18 +7,26 @@ output:
     latex_engine: xelatex
 ---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
 ```{r}
-summary(cars)
+require(knitr)
+# Set working directory -- you'll need to change this on your machine
+setwd('/Users/scottlayton/Predict498_Nile')
+
+#pull in training data
+training_dta = read.csv('Training_set_values.csv')
+
+#pull in training data labels -- This is the classification mapping
+training_labels = read.csv('Training_set_labels.csv')
+
+# join status group into main dataframe
+training_dta <- merge(training_dta,training_labels,by="id")
+
 ```
 
-You can also embed plots, for example:
+Create a couple of frequency tables.
 
-```{r, echo=FALSE}
-plot(cars)
+```{r kable}
+kable(t(as.matrix(table(training_dta$status_group))))
+
+kable(t(as.matrix(table(training_dta$waterpoint_type_group, training_dta$status_group))))
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

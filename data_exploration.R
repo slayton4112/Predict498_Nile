@@ -15,3 +15,7 @@ names(training_dta)
 
 # Note: Functional, needs repair is small portion of data and will be difficult to predict
 table(training_dta$status_group)
+
+table(training_dta$waterpoint_type_group, training_dta$status_group)
+
+plot(log(training_dta$population)~training_dta$status_group)
