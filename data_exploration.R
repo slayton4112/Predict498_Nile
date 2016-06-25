@@ -1,5 +1,5 @@
 # Set working directory -- you'll need to change this on your machine
-setwd('/Users/scottlayton/Predict498_Nile')
+setwd('C:/Users/Scott Layton/Documents/Predict498_Nile')
 
 #pull in training data
 training_dta = read.csv('Training_set_values.csv')
