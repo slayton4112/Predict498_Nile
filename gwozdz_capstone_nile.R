@@ -45,7 +45,7 @@ write.csv(gdp, file = "/Users/LosGuamuch/Desktop/gdp.csv") # double checking in 
 
 
 ########################################
-# EDA / QA
+# QA
 ########################################
 
 # Loads Capstone RData file
@@ -85,7 +85,7 @@ gdp_dictionary = merge(gdp_summary, series_ref, by.x = "variable", by.y = "serie
                        all.x = TRUE) # merges variables with basic descriptives
 gdp_dictionary = gdp_dictionary[,c(1:2, 7:10, 3:6)]
 
-gdp_dictionary = merge(gdp_summary, gdp_summary.num, all.x = TRUE) # adds all numerical summary data
+gdp_dictionary = merge(gdp_dictionary, gdp_summary.num, all.x = TRUE) # adds all numerical summary data
 
 # Save Dictionary to Team Drive
 write.csv(gdp_dictionary, file = "/Users/LosGuamuch/Predict498_Nile/gdp_dictionary.csv")
