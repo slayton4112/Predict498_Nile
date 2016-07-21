@@ -53,16 +53,13 @@ load("~/Predict498_Nile/nile_data.RData")
 
 summary(gdp)
 head(gdp)
-length(unique(gdp$country)) #214 countries in total
+length(unique(gdp$country)) #217 countries in total
 
 # print first 10 rows
 head(gdp[, c(1:9)], n=10)
 
 # print last 10 rows
 tail(gdp[, c(1:9)], n=10)
-
-# How many are missing GDP?
-gdp$missing = is.na(gdp$SL.GDP.PCAP.EM.KD)*1 # create missing flag
 
 # Check missingness for all variables
 sapply(gdp, function(x) sum(is.na(x)))
@@ -86,9 +83,18 @@ gdp_dictionary = merge(gdp_summary, series_ref, by.x = "variable", by.y = "serie
 gdp_dictionary = gdp_dictionary[,c(1:2, 7:10, 3:6)]
 
 gdp_dictionary = merge(gdp_dictionary, gdp_summary.num, all.x = TRUE) # adds all numerical summary data
+gdp_dictionary = gdp_dictionary[,c(1, 3:7, 2, 8:27)]
 
 # Save Dictionary to Team Drive
 write.csv(gdp_dictionary, file = "/Users/LosGuamuch/Predict498_Nile/gdp_dictionary.csv")
+
+####################################
+# CLEAN
+####################################
+
+# Drop countries missing GDP data for our time frame
+# How many are missing GDP?
+gdp$missing = is.na(gdp$SL.GDP.PCAP.EM.KD)*1 # create missing flag
 
 # Group by country and sum missing GDP
 miss = gdp %>%
@@ -96,14 +102,31 @@ miss = gdp %>%
   summarise(num_miss = sum(missing)) %>%
   arrange(desc(num_miss))
 
-# Filter on countries missing GDP data
-miss = filter(miss, num_miss == 25)
+ggplot(filter(miss, num_miss > 0), aes(reorder(country, num_miss), num_miss)) +
+  geom_bar(stat = "identity") + coord_flip()
 
-# Drop the countries that are missing GDP data
-gdp <- gdp[!(gdp$country %in% miss$country),]
+## Smallest number of GDP missing is 22, Drop all countries >=22
+
+# Filter on countries (43 of them) missing most GDP data
+drop = filter(miss, num_miss >= 22)
+
+# Drop the countries that are mostly missing GDP data
+gdp <- gdp[!(gdp$country %in% drop$country),]
 gdp$missing = NULL
 length(unique(gdp$country)) # 174 countries leftover
 
+# Flag Outliers in GDP as gdp_outliers
+uq = quantile(gdp$SL.GDP.PCAP.EM.KD, .75) # upper quartile
+lq = quantile(gdp$SL.GDP.PCAP.EM.KD, .25) # lower quartile
+iqr.gdp = IQR(gdp$SL.GDP.PCAP.EM.KD) # inter quartile range
+gdp$gdp_outliers = ((gdp$SL.GDP.PCAP.EM.KD > uq + 1.5 * iqr.gdp) | (gdp$SL.GDP.PCAP.EM.KD < lq - 1.5 * iqr.gdp)) * 1
+
+# Group by country and sum missing GDP
+gdp.out = gdp %>%
+  group_by(country) %>%
+  summarise(gdp.outliers = sum(gdp_outliers)) %>%
+  arrange(desc(gdp.outliers))
+View(gdp.out)
 
 
 ########################################
@@ -111,13 +134,14 @@ length(unique(gdp$country)) # 174 countries leftover
 ########################################
 
 # Line Chart
-ggplot(gdp, aes(year, SL.GDP.PCAP.EM.KD, color=country)) + geom_line() + 
-  xlab('Year') + ylab('GDP per capita')
+# Why is this not plotting all of the data points?
+ggplot(subset(gdp, country == c("United States", "Mexico", "Canada", "United Kingdom")), aes(year, SL.GDP.PCAP.EM.KD, color=country)) +
+  geom_line() + 
+  xlab('Year') +
+  ylab('GDP Per Capita')
 
-# Boxplot of GDP
-p <- ggplot(filter(train.data.wide, year >= 1991), aes(year, SL.GDP.PCAP.EM.KD))
-p + geom_boxplot() + geom_jitter(width = 0.2)
-
-p <- ggplot (filter(train.data.wide, year >= 1990), aes(year, SL.GDP.PCAP.EM.KD)) +
-  p + geom_line(aes(group=country.name)) +
-  facet_wrap(~ country.name)
+# Histogram of GDP faceted by year
+m <- ggplot(gdp, aes(SL.GDP.PCAP.EM.KD))
+m <- m + geom_histogram(binwidth = 0.5)
+m <- m + aes( y = ..density..)
+m + facet_wrap(~ year)
