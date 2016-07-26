@@ -1,0 +1,898 @@
+"","pred.ind","pred.var","avg.rank","avg.pval","country.count"
+"279","SL.GDP.PCAP.EM.KD","GDP per person employed (constant 1990 PPP $)",1,0,174
+"675","SH.STA.OWGH.ZS","Prevalence of overweight (% of children under 5)",219,0.00214878507445139,1
+"669","SH.STA.ANVC.ZS","Pregnant women receiving prenatal care (%)",289,0.00255427806154617,1
+"470","SH.STA.STNT.ZS","Malnutrition prevalence, height for age (% of children under 5)",256,0.00576797351743422,1
+"471","SH.STA.MALN.ZS","Malnutrition prevalence, weight for age (% of children under 5)",297,0.0138490074644994,1
+"274","NY.GDP.PCAP.KN","GDP per capita (constant LCU)",43.3333333333333,0.0166533833601648,171
+"273","NY.GDP.PCAP.KD","GDP per capita (constant 2000 US$)",42.6147058823529,0.0166913590299004,170
+"277","NY.GDP.PCAP.PP.KD","GDP per capita, PPP (constant 2005 international $)",42.387573964497,0.0167901203743046,169
+"824","SP.MTR.1519.ZS","Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)",235,0.0211001869525312,1
+"268","NY.GDP.MKTP.KN","GDP (constant LCU)",62.3479532163743,0.036002194929901,171
+"267","NY.GDP.MKTP.KD","GDP (constant 2000 US$)",62.2147058823529,0.0362104020953857,170
+"282","NY.GDP.MKTP.PP.KD","GDP, PPP (constant 2005 international $)",62.2485207100592,0.0364246512154065,169
+"298","NY.GNP.PCAP.KN","GNI per capita (constant LCU)",83.2993197278912,0.0373151773348774,147
+"344","NY.GDP.FCST.KN","Gross value added at factor cost (constant LCU)",83.6118881118881,0.043081473987941,143
+"297","NY.GNP.PCAP.KD","GNI per capita (constant 2000 US$)",87.1632653061225,0.0441659472476716,147
+"343","NY.GDP.FCST.KD","Gross value added at factor cost (constant 2000 US$)",85.4784172661871,0.0450160668862902,139
+"125","SH.MED.CMHW.P3","Community health workers (per 1,000 people)",178,0.0474804450945571,1
+"293","NY.GNP.MKTP.KN","GNI (constant LCU)",101.360544217687,0.0520341674238079,147
+"292","NY.GNP.MKTP.KD","GNI (constant 2000 US$)",106.333333333333,0.0564699388487753,147
+"661","SI.POV.DDAY","Poverty headcount ratio at $1.25 a day (PPP) (% of population)",238.666666666667,0.060803791531922,6
+"657","SI.POV.GAP2","Poverty gap at $2 a day (PPP) (%)",245,0.06197041331854,6
+"317","NY.GDY.TOTL.KN","Gross domestic income (constant LCU)",105.797385620915,0.0653655566149371,153
+"338","NY.GNY.TOTL.KN","Gross national income (constant LCU)",134.666666666667,0.07204966846416,42
+"283","NY.GDP.MKTP.PP.CD","GDP, PPP (current international $)",120.07100591716,0.0726314875722012,169
+"301","NY.GNP.PCAP.PP.CD","GNI per capita, PPP (current international $)",113.590361445783,0.0770786616668789,166
+"662","SI.POV.2DAY","Poverty headcount ratio at $2 a day (PPP) (% of population)",250.5,0.0801046593380718,6
+"243","NE.CON.TOTL.KN","Final consumption expenditure (constant LCU)",145.673333333333,0.08117942453247,150
+"278","NY.GDP.PCAP.PP.CD","GDP per capita, PPP (current international $)",108.215976331361,0.081512055734884,169
+"370","NE.CON.PRVT.PP.KD","Household final consumption expenditure, PPP (constant 2005 international $)",148.153846153846,0.0819380630376876,143
+"303","NY.GNP.MKTP.PP.CD","GNI, PPP (current international $)",130.210843373494,0.0863065759147692,166
+"359","NE.CON.PRVT.KN","Household final consumption expenditure (constant LCU)",150.97972972973,0.0866439672118775,148
+"242","NE.CON.TOTL.KD","Final consumption expenditure (constant 2000 US$)",148.19,0.08702195402047,150
+"358","NE.CON.PRVT.KD","Household final consumption expenditure (constant 2000 US$)",151.090604026846,0.088683738596982,149
+"518","IT.CEL.SETS.P2","Mobile cellular subscriptions (per 100 people)",174.684523809524,0.090258032627113,168
+"794","AG.SRF.TOTL.K2","Surface area (sq. km)",239.040540540541,0.090438381405793,37
+"289","NE.CON.GOVT.CD","General government final consumption expenditure (current US$)",178.450920245399,0.0916578526329164,163
+"517","IT.CEL.SETS","Mobile cellular subscriptions",172.214285714286,0.0928962594500174,168
+"270","NY.GDP.MKTP.CD","GDP (current US$)",161.783625730994,0.0942050283444299,171
+"334","NE.DAB.TOTL.KN","Gross national expenditure (constant LCU)",141.211038961039,0.0958578403367316,154
+"295","NY.GNP.MKTP.CD","GNI (current US$)",166.889221556886,0.0958686498950011,167
+"336","NE.DAB.TOTL.CD","Gross national expenditure (current US$)",166.5,0.096216917118442,168
+"11","NY.ADJ.DKAP.CD","Adjusted savings: consumption of fixed capital (current US$)",174.74269005848,0.0963189705039672,171
+"409","NV.IND.TOTL.KN","Industry, value added (constant LCU)",137.804347826087,0.0978854304581706,161
+"275","NY.GDP.PCAP.CD","GDP per capita (current US$)",170.732352941176,0.0979643854260635,170
+"773","NV.SRV.TETC.KN","Services, etc., value added (constant LCU)",134.540880503145,0.0997444460101049,159
+"178","EG.USE.ELEC.KH.PC","Electric power consumption (kWh per capita)",182.313432835821,0.100146698166673,134
+"408","NV.IND.TOTL.KD","Industry, value added (constant 2000 US$)",139.599358974359,0.101891894573937,156
+"72","TM.TAX.MANF.BR.ZS","Bound rate, simple mean, manufactured products (%)",251.416666666667,0.101979814744027,36
+"294","NY.GNP.MKTP.CN","GNI (current LCU)",168.979041916168,0.102661075837745,167
+"251","NE.CON.TETC.CD","Final consumption expenditure, etc. (current US$)",178.146341463415,0.103424372976245,164
+"362","NE.CON.PRVT.PC.KD","Household final consumption expenditure per capita (constant 2000 US$)",156.463087248322,0.104863323400717,149
+"3","NY.ADJ.NNTY.CD","Adjusted net national income (current US$)",178.1,0.104989630330958,150
+"369","NE.CON.PETC.CD","Household final consumption expenditure, etc. (current US$)",183.09509202454,0.105084495553512,163
+"649","EN.URB.MCTY","Population in urban agglomerations of more than 1 million",180.276315789474,0.105225422884874,114
+"772","NV.SRV.TETC.KD","Services, etc., value added (constant 2000 US$)",137.451612903226,0.105351560220886,155
+"647","EN.URB.LCTY","Population in largest city",171.631756756757,0.105658946484599,148
+"249","NE.CON.TETC.KN","Final consumption expenditure, etc. (constant LCU)",156.93288590604,0.106251479448488,149
+"333","NE.DAB.TOTL.KD","Gross national expenditure (constant 2000 US$)",143.417763157895,0.106441219883671,152
+"245","NE.CON.TOTL.CD","Final consumption expenditure (current US$)",185.716049382716,0.106462232651925,162
+"346","NY.GDP.FCST.CD","Gross value added at factor cost (current US$)",178.194630872483,0.106583112518187,149
+"326","NE.GDI.FTOT.CD","Gross fixed capital formation (current US$)",180.524844720497,0.107289813443047,161
+"316","NE.GDI.TOTL.CD","Gross capital formation (current US$)",182.527272727273,0.108444610339049,165
+"361","NE.CON.PRVT.CD","Household final consumption expenditure (current US$)",190.092024539877,0.108511869487187,163
+"677","SH.STA.WAST.ZS","Prevalence of wasting (% of children under 5)",406,0.109646968473083,1
+"248","NE.CON.TETC.KD","Final consumption expenditure, etc. (constant 2000 US$)",159.908783783784,0.110852056393164,148
+"269","NY.GDP.MKTP.CN","GDP (current LCU)",168.66081871345,0.110940294922227,171
+"262","AG.LND.FRST.K2","Forest area (sq. km)",198.170068027211,0.111611502595347,147
+"2","NY.ADJ.NNTY.KD","Adjusted net national income (constant 2000 US$)",168.195652173913,0.112446306590977,138
+"613","SH.MMR.DTHS","Number of maternal deaths",207.577380952381,0.112550921170475,168
+"775","NV.SRV.TETC.CD","Services, etc., value added (current US$)",182.415151515152,0.113354291621383,165
+"302","NY.GNP.ATLS.CD","GNI, Atlas method (current US$)",164.827380952381,0.114153322396262,168
+"728","SP.RUR.TOTL.ZS","Rural population (% of total population)",181.127167630058,0.114373813652038,173
+"883","SP.URB.TOTL.IN.ZS","Urban population (% of total)",180.971098265896,0.11437381365204,173
+"13","NY.ADJ.AEDU.CD","Adjusted savings: education expenditure (current US$)",182.60736196319,0.114866601613274,163
+"410","NV.IND.TOTL.CN","Industry, value added (current LCU)",178.289156626506,0.116532810736937,166
+"498","TM.VAL.MRCH.WL.CD","Merchandise imports by the reporting economy (current US$)",201.133333333333,0.116657906777474,165
+"656","SI.POV.GAPS","Poverty gap at $1.25 a day (PPP) (%)",291.5,0.116881669509801,6
+"325","NE.GDI.FTOT.CN","Gross fixed capital formation (current LCU)",187.787037037037,0.117086267349544,162
+"68","SP.DYN.CBRT.IN","Birth rate, crude (per 1,000 people)",188.080924855491,0.117477462919824,173
+"388","NE.IMP.GNFS.CD","Imports of goods and services (current US$)",193.285714285714,0.117671467374259,168
+"367","NE.CON.PETC.KN","Household final consumption expenditure, etc. (constant LCU)",168.204081632653,0.117820217259481,147
+"261","AG.LND.FRST.ZS","Forest area (% of land area)",205.385135135135,0.117997666929881,148
+"648","EN.URB.LCTY.UR.ZS","Population in the largest city (% of urban population)",204.761904761905,0.118395309413744,147
+"25","NY.ADJ.DPEM.CD","Adjusted savings: particulate emission damage (current US$)",186.107142857143,0.11877704406029,168
+"324","NE.GDI.FTOT.KN","Gross fixed capital formation (constant LCU)",185.472789115646,0.119252858147539,147
+"477","NV.IND.MANF.KN","Manufacturing, value added (constant LCU)",177.332258064516,0.120572728409533,155
+"288","NE.CON.GOVT.CN","General government final consumption expenditure (current LCU)",193.653374233129,0.120829122085479,163
+"300","NY.GNP.PCAP.CD","GNI per capita, Atlas method (current US$)",168.982142857143,0.121065389925586,168
+"366","NE.CON.PETC.KD","Household final consumption expenditure, etc. (constant 2000 US$)",169.778911564626,0.121342086264484,147
+"411","NV.IND.TOTL.CD","Industry, value added (current US$)",187.121212121212,0.12208787845028,165
+"603","NY.TAX.NIND.KN","Net taxes on products (constant LCU)",205.48905109489,0.122653767142426,137
+"882","SP.URB.TOTL","Urban population",192.777456647399,0.125351001897943,173
+"476","NV.IND.MANF.KD","Manufacturing, value added (constant 2000 US$)",182.030201342282,0.125777976340379,149
+"75","FM.LBL.BMNY.CN","Broad money (current LCU)",192.835616438356,0.126686612102577,146
+"650","EN.URB.MCTY.TL.ZS","Population in urban agglomerations of more than 1 million (% of total population)",210.115044247788,0.126737498982624,113
+"314","NE.GDI.TOTL.KN","Gross capital formation (constant LCU)",192.233333333333,0.12865071200689,150
+"644","SP.POP.65UP.TO.ZS","Population ages 65 and above (% of total)",202.022988505747,0.130908318403715,174
+"645","EN.POP.DNST","Population density (people per sq. km of land area)",197.028901734104,0.131380030965658,173
+"315","NE.GDI.TOTL.CN","Gross capital formation (current LCU)",193.198795180723,0.132067332256644,166
+"386","NE.IMP.GNFS.KN","Imports of goods and services (constant LCU)",199.022727272727,0.133041301515944,154
+"323","NE.GDI.FTOT.KD","Gross fixed capital formation (constant 2000 US$)",188.858108108108,0.134187785440956,148
+"497","TM.VAL.MRCH.CD.WT","Merchandise imports (current US$)",207.218934911243,0.134379566261557,169
+"652","SP.POP.TOTL","Population, total",195.384393063584,0.135603475438162,173
+"335","NE.DAB.TOTL.CN","Gross national expenditure (current LCU)",181.07100591716,0.136273954387672,169
+"9","NY.ADJ.DCO2.CD","Adjusted savings: carbon dioxide damage (current US$)",203.563953488372,0.13681892034858,172
+"250","NE.CON.TETC.CN","Final consumption expenditure, etc. (current LCU)",192.236363636364,0.138034006042112,165
+"774","NV.SRV.TETC.CN","Services, etc., value added (current LCU)",190.617469879518,0.138150059890115,166
+"232","DT.DOD.DPNG.CD","External debt stocks, private nonguaranteed (PNG) (DOD, current US$)",238.025641025641,0.139293209641996,78
+"313","NE.GDI.TOTL.KD","Gross capital formation (constant 2000 US$)",195.503333333333,0.140349737796901,150
+"708","SL.TLF.CACT.FM.ZS","Ratio of female to male labor force participation rate (%)",217.908045977011,0.143570763108188,174
+"385","NE.IMP.GNFS.KD","Imports of goods and services (constant 2000 US$)",204.575657894737,0.144351509608332,152
+"671","SH.PRG.ANEM","Prevalence of anemia among pregnant women (%)",222.6,0.144785285144367,170
+"795","SP.DYN.TO65.FE.ZS","Survival to age 65, female (% of cohort)",198.385057471264,0.144942609157619,174
+"461","SH.MMR.RISK.ZS","Lifetime risk of maternal death (%)",211.883720930233,0.146219038368105,172
+"345","NY.GDP.FCST.CN","Gross value added at factor cost (current LCU)",196.590604026846,0.146589558048357,149
+"748","SE.TER.ENRR","School enrollment, tertiary (% gross)",256.904761904762,0.147590162541484,42
+"71","TM.TAX.MRCH.BR.ZS","Bound rate, simple mean, all products (%)",305.305555555556,0.14814575176291,36
+"360","NE.CON.PRVT.CN","Household final consumption expenditure (current LCU)",202.542944785276,0.148630300750647,163
+"727","SP.RUR.TOTL","Rural population",201.581395348837,0.148776638482822,172
+"244","NE.CON.TOTL.CN","Final consumption expenditure (current LCU)",201.846625766871,0.149025186900884,163
+"224","NE.EXP.GNFS.CD","Exports of goods and services (current US$)",216.303571428571,0.149818046678039,168
+"371","NE.CON.PRVT.PP.CD","Household final consumption expenditure, PPP (current international $)",199.704697986577,0.150916220910778,149
+"271","NY.GDP.DEFL.ZS","GDP deflator (base year varies by country)",222.777777777778,0.151245935890916,171
+"451","SL.TLF.TOTL.IN","Labor force, total",213.161849710983,0.151625753250886,173
+"239","SP.DYN.TFRT.IN","Fertility rate, total (births per woman)",207.56976744186,0.152357249180315,172
+"286","NE.CON.GOVT.KD","General government final consumption expenditure (constant 2000 US$)",221.664429530201,0.152435252905932,149
+"47","NV.AGR.TOTL.CD","Agriculture, value added (current US$)",219.351515151515,0.154045443953325,165
+"28","SP.POP.DPND.OL","Age dependency ratio, old (% of working-age population)",216.040462427746,0.154238100175164,173
+"478","NV.IND.MANF.CN","Manufacturing, value added (current LCU)",205.096273291925,0.154362841730531,161
+"287","NE.CON.GOVT.KN","General government final consumption expenditure (constant LCU)",222.52027027027,0.154412305380934,148
+"368","NE.CON.PETC.CN","Household final consumption expenditure, etc. (current LCU)",204.484662576687,0.154648778759372,163
+"462","SH.MMR.RISK","Lifetime risk of maternal death (1 in: rate varies by country)",219.790697674419,0.154833066393803,172
+"380","TM.VAL.MRCH.XD.WD","Import value index (2000 = 100)",209.877192982456,0.1552361470588,171
+"328","NE.GDI.FPRV.CN","Gross fixed capital formation, private sector (current LCU)",227.826530612245,0.156211272726301,98
+"381","TM.QTY.MRCH.XD.WD","Import volume index (2000 = 100)",211.152941176471,0.156242477832374,170
+"520","SP.DYN.AMRT.MA","Mortality rate, adult, male (per 1,000 male adults)",219.206896551724,0.15721266944971,174
+"387","NE.IMP.GNFS.CN","Imports of goods and services (current LCU)",217.384615384615,0.15723447564393,169
+"526","NY.GDP.NGAS.RT.ZS","Natural gas rents (% of GDP)",271.065217391304,0.157247089031185,92
+"320","NY.GDS.TOTL.CD","Gross domestic savings (current US$)",226.15243902439,0.157640067869139,164
+"208","EG.USE.PCAP.KG.OE","Energy use (kg of oil equivalent per capita)",220.294117647059,0.159068261700932,136
+"479","NV.IND.MANF.CD","Manufacturing, value added (current US$)",213.221875,0.159257975965743,160
+"666","PA.NUS.PPPC.RF","PPP conversion factor (GDP) to market exchange rate ratio",245.907738095238,0.163018136684534,168
+"651","SP.POP.TOTL.FE.ZS","Population, female (% of total)",219.672413793103,0.163303485315115,174
+"887","SL.EMP.VULN.FE.ZS","Vulnerable employment, female (% of female employment)",271.88679245283,0.163864321703095,53
+"643","SP.POP.1564.TO.ZS","Population ages 15-64 (% of total)",233.758620689655,0.164161979330143,174
+"237","SH.DYN.AIDS.FE.ZS","Female adults with HIV (% of population ages 15+ with HIV)",216.009615384615,0.164168074563655,104
+"485","TX.VAL.MRCH.WL.CD","Merchandise exports by the reporting economy (current US$)",236.242424242424,0.164506966639822,165
+"396","SH.TBS.INCD","Incidence of tuberculosis (per 100,000 people)",217.43023255814,0.165575278101544,172
+"523","SH.DYN.MORT","Mortality rate, under-5 (per 1,000 live births)",203.789473684211,0.165995117136793,171
+"458","SP.DYN.LE00.FE.IN","Life expectancy at birth, female (years)",223.456647398844,0.166410371716248,173
+"450","SL.TLF.TOTL.FE.ZS","Labor force, female (% of total labor force)",229.705202312139,0.167052532315569,173
+"231","DT.DOD.DLXF.CD","External debt stocks, long-term (DOD, current US$)",253.245454545455,0.16771847444147,110
+"781","TM.TAX.TCOM.SR.ZS","Share of tariff lines with specific rates, primary products (%)",327.321428571429,0.168385582610385,28
+"27","SP.POP.DPND","Age dependency ratio (% of working-age population)",230.867052023121,0.168489106380823,173
+"29","SP.POP.DPND.YG","Age dependency ratio, young (% of working-age population)",227.838150289017,0.168955318064,173
+"21","NY.ADJ.DFOR.CD","Adjusted savings: net forest depletion (current US$)",246.917475728155,0.168994522497464,103
+"804","TM.TAX.MANF.SM.FN.ZS","Tariff rate, most favored nation, simple mean, manufactured products (%)",232.852941176471,0.169854983080402,34
+"521","SP.DYN.IMRT.IN","Mortality rate, infant (per 1,000 live births)",201.432748538012,0.170157571511187,171
+"605","NY.TAX.NIND.CD","Net taxes on products (current US$)",239.650684931507,0.170293274840621,146
+"46","NV.AGR.TOTL.CN","Agriculture, value added (current LCU)",241.421686746988,0.171057892137793,166
+"522","SH.DYN.NMRT","Mortality rate, neonatal (per 1,000 live births)",207.573099415205,0.171727261495746,171
+"217","NY.EXP.CAPM.KN","Exports as a capacity to import (constant LCU)",240.581699346405,0.172784591185855,153
+"436","IT.NET.USER.P2","Internet users (per 100 people)",238.878205128205,0.17279489264338,156
+"676","SN.ITK.DEFC.ZS","Prevalence of undernourishment (% of population)",249.06,0.172800136132136,100
+"807","TM.TAX.MANF.WM.FN.ZS","Tariff rate, most favored nation, weighted mean, manufactured products (%)",230.794117647059,0.173165760714157,34
+"26","SP.ADO.TFRT","Adolescent fertility rate (births per 1,000 women ages 15-19)",228.442528735632,0.173668146623797,174
+"519","SP.DYN.AMRT.FE","Mortality rate, adult, female (per 1,000 female adults)",226.931034482759,0.173792828948953,174
+"229","NE.RSB.GNFS.CD","External balance on goods and services (current US$)",254.904761904762,0.174091275001482,168
+"10","NY.ADJ.DKAP.GN.ZS","Adjusted savings: consumption of fixed capital (% of GNI)",250.155688622754,0.174727106773671,167
+"484","TX.VAL.MRCH.CD.WT","Merchandise exports (current US$)",245.242603550296,0.175609005015293,169
+"319","NY.GDS.TOTL.CN","Gross domestic savings (current LCU)",231.70303030303,0.175935746601602,165
+"796","SP.DYN.TO65.MA.ZS","Survival to age 65, male (% of cohort)",217.35632183908,0.176088942332846,174
+"453","SL.TLF.CACT.MA.ZS","Labor participation rate, male (% of male population ages 15+)",231.913793103448,0.176597969124501,174
+"811","GC.TAX.TOTL.CN","Tax revenue (current LCU)",262.428571428571,0.176806933144956,105
+"515","MS.MIL.XPND.CN","Military expenditure (current LCU)",248.015625,0.176926097448651,128
+"779","TM.TAX.MRCH.SR.ZS","Share of tariff lines with specific rates, all products (%)",335.142857142857,0.177504133898337,28
+"749","SE.TER.ENRR.FE","School enrollment, tertiary, female (% gross)",252.772727272727,0.177658096377633,44
+"341","NY.GNS.ICTR.CN","Gross savings (current LCU)",248.136363636364,0.177722910766515,132
+"439","IE.PPI.TRAN.CD","Investment in transport with private participation (current US$)",391,0.177827297282477,2
+"206","EG.IMP.CONS.ZS","Energy imports, net (% of energy use)",263.48905109489,0.178098977070764,137
+"482","SH.STA.MMRT","Maternal mortality ratio (modeled estimate, per 100,000 live births)",239.738372093023,0.17851944597989,172
+"452","SL.TLF.CACT.FE.ZS","Labor participation rate, female (% of female population ages 15+)",233.787356321839,0.17866584615251,174
+"674","SH.DYN.AIDS.ZS","Prevalence of HIV, total (% of population ages 15-49)",235.544444444444,0.17879631363712,90
+"454","SL.TLF.CACT.ZS","Labor participation rate, total (% of total population ages 15+)",238.505747126437,0.17901065545745,174
+"215","TX.VAL.MRCH.XD.WD","Export value index (2000 = 100)",235.491228070175,0.179271876974392,171
+"604","NY.TAX.NIND.CN","Net taxes on products (current LCU)",238.321917808219,0.179939063315953,146
+"222","NE.EXP.GNFS.KN","Exports of goods and services (constant LCU)",240.266233766234,0.180538869573124,154
+"816","GC.TAX.GSRV.CN","Taxes on goods and services (current LCU)",277.794117647059,0.180711100089471,102
+"230","DT.DOD.DECT.GN.ZS","External debt stocks (% of GNI)",268.556603773585,0.181045178670177,106
+"342","NY.GNS.ICTR.CD","Gross savings (current US$)",240.856060606061,0.181056104292839,132
+"347","SH.XPD.PCAP","Health expenditure per capita (current US$)",238.247023809524,0.181301327227314,168
+"45","NV.AGR.TOTL.KN","Agriculture, value added (constant LCU)",251.888888888889,0.181363481835147,162
+"221","NE.EXP.GNFS.KD","Exports of goods and services (constant 2000 US$)",240.388157894737,0.182815555576016,152
+"667","PA.NUS.PPP","PPP conversion factor, GDP (LCU per international $)",248.830357142857,0.183829842161189,168
+"118","EG.USE.CRNW.ZS","Combustible renewables and waste (% of total energy)",265.917293233083,0.184149321919344,133
+"163","GC.TAX.IMPT.CN","Customs and other import duties (current LCU)",278.365853658537,0.18422459553651,82
+"460","SP.DYN.LE00.IN","Life expectancy at birth, total (years)",232.104046242775,0.184800878894285,173
+"44","NV.AGR.TOTL.KD","Agriculture, value added (constant 2000 US$)",256,0.185224461604507,156
+"281","EG.GDP.PUSE.KO.PP","GDP per unit of energy use (PPP $ per kg of oil equivalent)",243.593984962406,0.185507782025365,133
+"672","SH.HIV.1524.FE.ZS","Prevalence of HIV, female (% ages 15-24)",242.202898550725,0.186308178020646,69
+"787","GC.REV.SOCL.CN","Social contributions (current LCU)",288.51282051282,0.187294338533616,78
+"73","TM.TAX.TCOM.BR.ZS","Bound rate, simple mean, primary products (%)",324.972972972973,0.187304571995978,37
+"546","DC.DAC.PRTL.CD","Net bilateral aid flows from DAC donors, Portugal (current US$)",240.875,0.189281333198778,8
+"223","NE.EXP.GNFS.CN","Exports of goods and services (current LCU)",238.242603550296,0.189301535671249,169
+"103","EN.ATM.CO2E.KT","CO2 emissions (kt)",248.604651162791,0.189769903056852,172
+"682","SE.PRM.ENRL","Primary education, pupils",270.311111111111,0.189950599032864,45
+"169","PA.NUS.ATLS","DEC alternative conversion factor (LCU per US$)",260.383647798742,0.190580918037573,159
+"186","EG.ELC.RNWX.ZS","Electricity production from renewable sources, excluding hydroelectric (% of total)",295.466666666667,0.19069973928958,105
+"801","TM.TAX.MANF.WM.AR.ZS","Tariff rate, applied, weighted mean, manufactured products (%)",266.411764705882,0.190737600447709,34
+"641","SH.MED.PHYS.ZS","Physicians (per 1,000 people)",293.214285714286,0.191249071834119,14
+"372","DT.DOD.MWBG.CD","IBRD loans and IDA credits (DOD, current US$)",266.080357142857,0.191668277297994,112
+"188","SL.AGR.EMPL.FE.ZS","Employees, agriculture, female (% of female employment)",309.816666666667,0.191836473519643,60
+"642","SP.POP.0014.TO.ZS","Population ages 0-14 (% of total)",235.787356321839,0.19219857747308,174
+"711","SE.ENR.TERT.FM.ZS","Ratio of female to male tertiary enrollment (%)",266.5,0.192485457624066,44
+"615","PA.NUS.FCRF","Official exchange rate (LCU per US$, period average)",268,0.192546275582885,158
+"571","NY.GSR.NFCY.KN","Net income from abroad (constant LCU)",300.875,0.192745009131456,16
+"165","SP.DYN.CDRT.IN","Death rate, crude (per 1,000 people)",242.346820809249,0.193580349154179,173
+"130","FP.CPI.TOTL","Consumer price index (2005 = 100)",250.656050955414,0.194007615060865,157
+"750","SE.TER.ENRR.MA","School enrollment, tertiary, male (% gross)",280.181818181818,0.194326072294623,44
+"235","DT.DOD.DECT.CD","External debt stocks, total (DOD, current US$)",259.154545454545,0.194831052294078,110
+"826","IT.MLT.MAIN.P2","Telephone lines (per 100 people)",248.899408284024,0.195365122975804,169
+"558","FM.AST.DOMS.CN","Net domestic credit (current LCU)",235.918918918919,0.195534783040564,148
+"49","IS.AIR.PSGR","Air transport, passengers carried",260.028368794326,0.195751990370887,141
+"706","IS.RRS.GOOD.MT.K6","Railways, goods transported (million ton-km)",265.456140350877,0.195831549897545,57
+"634","AG.LND.CROP.ZS","Permanent cropland (% of land area)",271.071428571429,0.195976063678354,168
+"348","SH.XPD.PCAP.PP.KD","Health expenditure per capita, PPP (constant 2005 international $)",262.133928571429,0.196291033981015,168
+"209","EG.USE.COMM.GD.PP.KD","Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)",270,0.19668505447842,133
+"459","SP.DYN.LE00.MA.IN","Life expectancy at birth, male (years)",240.404624277457,0.197202201825194,173
+"134","SL.FAM.WORK.ZS","Contributing family workers, total (% of total employed)",294.606060606061,0.197713896170918,66
+"740","SE.PRM.PRIV.ZS","School enrollment, primary, private (% of total primary)",260.833333333333,0.197875336294505,18
+"24","NY.ADJ.DPEM.GN.ZS","Adjusted savings: particulate emission damage (% of GNI)",250.981481481481,0.198292723797139,162
+"200","SL.EMP.TOTL.SP.FE.ZS","Employment to population ratio, 15+, female (%)",245.103448275862,0.198336215865332,174
+"121","TX.VAL.SERV.CD.WT","Commercial service exports (current US$)",257.290322580645,0.199104998203327,155
+"821","GC.TAX.INTT.CN","Taxes on international trade (current LCU)",284.539325842697,0.199124944450005,89
+"390","SH.STA.ACSN","Improved sanitation facilities (% of population with access)",247.527397260274,0.199278414472085,146
+"885","DT.DOD.DIMF.CD","Use of IMF credit (DOD, current US$)",266.172727272727,0.200456732831494,110
+"191","SL.IND.EMPL.MA.ZS","Employees, industry, male (% of male employment)",288.72131147541,0.20105919615889,61
+"393","SH.H2O.SAFE.ZS","Improved water source (% of population with access)",243.97602739726,0.201833396721112,146
+"723","GC.REV.XGRT.CN","Revenue, excluding grants (current LCU)",274.557692307692,0.201887790658031,104
+"751","IP.JRN.ARTC.SC","Scientific and technical journal articles",266.630952380952,0.202017918670199,168
+"5","NY.ADJ.SVNX.CD","Adjusted net savings, excluding particulate emission damage (current US$)",268.966417910448,0.202463448371029,134
+"768","BX.GSR.NFSV.CD","Service exports (BoP, current US$)",257.748387096774,0.202564230463566,155
+"847","FI.RES.XGLD.CD","Total reserves minus gold (current US$)",256.934375,0.202730885983746,160
+"198","SL.IND.EMPL.ZS","Employment in industry (% of total employment)",277.787878787879,0.202839701688901,66
+"673","SH.HIV.1524.MA.ZS","Prevalence of HIV, male (% ages 15-24)",243.226666666667,0.202984563788854,75
+"187","EG.ELC.RNWX.KH","Electricity production from renewable sources, excluding hydroelectric (kWh)",288.604761904762,0.203006154044645,105
+"104","EN.ATM.CO2E.PC","CO2 emissions (metric tons per capita)",255.309941520468,0.203086100945881,171
+"337","NE.DAB.DEFL.ZS","Gross national expenditure deflator (base year varies by country)",258.267973856209,0.204014423019161,153
+"220","BX.GSR.GNFS.CD","Exports of goods and services (BoP, current US$)",249.198717948718,0.204381831738521,156
+"474","NV.IND.MANF.ZS","Manufacturing, value added (% of GDP)",280.333333333333,0.204407025051585,159
+"321","NE.GDI.FTOT.ZS","Gross fixed capital formation (% of GDP)",272.138888888889,0.205032755058542,162
+"228","NE.RSB.GNFS.CN","External balance on goods and services (current LCU)",263.520710059172,0.205178973461385,169
+"890","SL.EMP.WORK.FE.ZS","Wage and salaried workers, female (% of females employed)",298.553846153846,0.205471257363655,65
+"435","IT.NET.USER","Internet users",239.886363636364,0.205742332551013,44
+"686","SE.PRM.AGES","Primary school starting age (years)",290.474358974359,0.206016355697411,39
+"455","AG.LND.TOTL.K2","Land area (sq. km)",305.670212765957,0.207812418310438,47
+"7","NY.ADJ.SVNG.CD","Adjusted net savings, including particulate emission damage (current US$)",272.778195488722,0.208057378564039,133
+"845","FI.RES.TOTL.CD","Total reserves (includes gold, current US$)",263.565625,0.208073041340173,160
+"806","TM.TAX.MRCH.WM.FN.ZS","Tariff rate, most favored nation, weighted mean, all products (%)",330.735294117647,0.208109725863047,34
+"528","DC.DAC.AUSL.CD","Net bilateral aid flows from DAC donors, Australia (current US$)",293.466666666667,0.208354531643358,45
+"765","SL.EMP.SELF.FE.ZS","Self-employed, female (% of females employed)",301.261538461538,0.20881253726925,65
+"419","GC.XPN.INTP.ZS","Interest payments (% of expense)",299.151515151515,0.209357510090493,99
+"214","GC.XPN.TOTL.CN","Expense (current LCU)",283.061224489796,0.209760686601706,98
+"182","EG.ELC.NGAS.ZS","Electricity production from natural gas sources (% of total)",280.456310679612,0.20998623539809,103
+"767","SL.EMP.SELF.ZS","Self-employed, total (% of total employed)",288.077464788732,0.211139882315543,71
+"216","TX.QTY.MRCH.XD.WD","Export volume index (2000 = 100)",259.059171597633,0.211185124817456,169
+"202","SL.EMP.TOTL.SP.ZS","Employment to population ratio, 15+, total (%)",257,0.211688489824013,174
+"753","SE.SEC.ENRL.GC","Secondary education, general pupils",272.461538461538,0.211870516172009,13
+"227","NE.RSB.GNFS.KN","External balance on goods and services (constant LCU)",266.869281045752,0.212027055478397,153
+"311","NE.GDI.TOTL.ZS","Gross capital formation (% of GDP)",267.671686746988,0.212174063751194,166
+"225","BX.GSR.TOTL.CD","Exports of goods, services and income (BoP, current US$)",260.145695364238,0.212273665926891,151
+"23","NY.ADJ.NNAT.CD","Adjusted savings: net national savings (current US$)",270.760273972603,0.212412645908285,146
+"646","SP.POP.GROW","Population growth (annual %)",252.394117647059,0.212593983652348,170
+"201","SL.EMP.TOTL.SP.MA.ZS","Employment to population ratio, 15+, male (%)",262.080459770115,0.212628108550165,174
+"307","BM.GSR.MRCH.CD","Goods imports (BoP, current US$)",260.48717948718,0.213234644928934,156
+"429","ST.INT.ARVL","International tourism, number of arrivals",283.573248407643,0.213972147023827,157
+"712","SE.ENR.PRSC.FM.ZS","Ratio of girls to boys in primary and secondary education (%)",324.5,0.214670973479442,34
+"74","FM.LBL.BMNY.GD.ZS","Broad money (% of GDP)",271.91724137931,0.214855029145573,145
+"884","SP.URB.GROW","Urban population growth (annual %)",261.780346820809,0.215605762574747,173
+"389","BM.GSR.TOTL.CD","Imports of goods, services and income (BoP, current US$)",258.746753246753,0.216961283107527,154
+"8","NY.ADJ.DCO2.GN.ZS","Adjusted savings: carbon dioxide damage (% of GNI)",277.036144578313,0.217327798598609,166
+"717","SE.PRM.REPT.FE.ZS","Repeaters, primary, female (% of female enrollment)",289.5,0.217848711158052,24
+"569","FM.AST.NFRG.CN","Net foreign assets (current LCU)",270.797297297297,0.218933931796154,148
+"556","NY.TRF.NCTR.CN","Net current transfers from abroad (current LCU)",287.360544217687,0.218962637572379,147
+"63","FB.AST.NPER.ZS","Bank nonperforming loans to total gross loans (%)",299.382608695652,0.218966937318942,115
+"514","MS.MIL.XPND.GD.ZS","Military expenditure (% of GDP)",285.09375,0.219025308945527,128
+"41","EA.PRD.AGRI.KD","Agriculture value added per worker (constant 2000 US$)",269.21935483871,0.21903329847592,155
+"891","SL.EMP.WORK.ZS","Wage and salaried workers, total (% of total employed)",296.590277777778,0.219225139405936,72
+"284","NE.CON.GOVT.ZS","General government final consumption expenditure (% of GDP)",279.006134969325,0.219415454128814,163
+"543","DC.DAC.NLDL.CD","Net bilateral aid flows from DAC donors, Netherlands (current US$)",309.7875,0.219704651738562,80
+"50","IS.AIR.DPRT","Air transport, registered carrier departures worldwide",277.528571428571,0.219876424814723,140
+"204","SL.EMP.1524.SP.MA.ZS","Employment to population ratio, ages 15-24, male (%)",275.580459770115,0.220497629179503,174
+"332","NE.DAB.TOTL.ZS","Gross national expenditure (% of GDP)",277.545454545455,0.220731360837237,165
+"840","SE.PRM.TENR","Total enrollment, primary (% net)",356.966666666667,0.220769624899503,30
+"726","BX.GSR.ROYL.CD","Royalty and license fees, receipts (BoP, current US$)",305.073529411765,0.221162639593024,68
+"384","BM.GSR.GNFS.CD","Imports of goods and services (BoP, current US$)",257.884615384615,0.221517484111152,156
+"442","SL.TLF.PRIM.FE.ZS","Labor force with primary education, female (% of female labor force)",335.655172413793,0.221650865507024,29
+"91","SH.HIV.0014","Children (0-14) living with HIV",253.576923076923,0.221820218015152,78
+"203","SL.EMP.1524.SP.FE.ZS","Employment to population ratio, ages 15-24, female (%)",268.758620689655,0.222125662776188,174
+"107","EN.ATM.CO2E.GF.KT","CO2 emissions from gaseous fuel consumption (kt) ",290.432203389831,0.222634199208526,118
+"280","EG.GDP.PUSE.KO.PP.KD","GDP per unit of energy use (constant 2005 PPP $ per kg of oil equivalent)",277.87969924812,0.222647217294907,133
+"800","TM.TAX.MRCH.WM.AR.ZS","Tariff rate, applied, weighted mean, all products (%)",358.176470588235,0.222986033747717,34
+"632","IP.PAT.NRES","Patent applications, nonresidents",323.121212121212,0.223251097362384,66
+"255","TM.VAL.FOOD.ZS.UN","Food imports (% of merchandise imports)",278.343137254902,0.223795912065624,102
+"819","GC.TAX.YPKG.CN","Taxes on income, profits and capital gains (current LCU)",289.817307692308,0.223876287285612,104
+"114","EN.ATM.CO2E.SF.KT","CO2 emissions from solid fuel consumption (kt) ",297.461240310078,0.223959647491362,129
+"766","SL.EMP.SELF.MA.ZS","Self-employed, male (% of males employed)",299.707692307692,0.224621981630054,65
+"257","NV.MNF.FBTO.ZS.UN","Food, beverages and tobacco (% of value added in manufacturing)",295.985294117647,0.224787251689637,68
+"511","EN.ATM.METH.KT.CE","Methane emissions (kt of CO2 equivalent)",275.929824561404,0.225136409652523,171
+"254","TX.VAL.FOOD.ZS.UN","Food exports (% of merchandise exports)",283.555555555556,0.225733093646924,99
+"180","EG.ELC.COAL.ZS","Electricity production from coal sources (% of total)",315.791666666667,0.225772621843368,84
+"226","NE.RSB.GNFS.ZS","External balance on goods and services (% of GDP)",277.970414201183,0.226410098313132,169
+"92","SE.PRM.UNER","Children out of school, primary",351.866666666667,0.226667275196253,30
+"94","SE.PRM.UNER.MA","Children out of school, primary, male",360.391304347826,0.226693175899274,23
+"115","EN.CO2.TRAN.ZS","CO2 emissions from transport (% of total fuel combustion)",316.167883211679,0.226782239508945,137
+"572","NY.GSR.NFCY.CN","Net income from abroad (current LCU)",287.616564417178,0.22683881099674,163
+"233","DT.DOD.DPPG.CD","External debt stocks, public and publicly guaranteed (PPG) (DOD, current US$)",280.745454545455,0.227087517609878,110
+"218","NE.EXP.GNFS.ZS","Exports of goods and services (% of GDP)",289.153846153846,0.227551460762248,169
+"825","IT.MLT.MAIN","Telephone lines",266.923076923077,0.227713018978253,169
+"486","TX.VAL.MRCH.RS.ZS","Merchandise exports by the reporting economy, residual (% of total merchandise exports)",297.109090909091,0.227806797023605,165
+"715","SM.POP.REFG","Refugee population by country or territory of asylum",295.25,0.227863697671377,144
+"109","EN.ATM.CO2E.LF.KT","CO2 emissions from liquid fuel consumption (kt) ",280,0.228126038117202,170
+"877","SL.UEM.TOTL.MA.ZS","Unemployment, male (% of male labor force)",290.011494252874,0.228530380453407,174
+"264","EG.USE.COMM.FO.ZS","Fossil fuel energy consumption (% of total)",294.9,0.228591399260766,130
+"430","ST.INT.DPRT","International tourism, number of departures",312.823529411765,0.228816236556326,85
+"263","NY.GDP.FRST.RT.ZS","Forest rents (% of GDP)",295.841317365269,0.22928510301574,167
+"428","ST.INT.TVLX.CD","International tourism, expenditures for travel items (current US$)",287.748366013072,0.229686749759711,153
+"106","EN.ATM.CO2E.GF.ZS","CO2 emissions from gaseous fuel consumption (% of total) ",306.067796610169,0.229921363848939,118
+"829","NV.MNF.TXTL.ZS.UN","Textiles and clothing (% of value added in manufacturing)",297.305555555556,0.229976206508949,72
+"260","BX.KLT.DINV.CD.WD","Foreign direct investment, net inflows (BoP, current US$)",292.127272727273,0.230456083702394,165
+"892","SL.EMP.WORK.MA.ZS","Wage and salary workers, male (% of males employed)",296.984615384615,0.230743992355207,65
+"185","EG.ELC.FOSL.ZS","Electricity production from oil, gas and coal sources (% of total)",303.834615384615,0.230757998395509,130
+"557","NY.TRF.NCTR.CD","Net current transfers from abroad (current US$)",289.238095238095,0.230810799022997,147
+"496","TX.VAL.MRCH.HI.ZS","Merchandise exports to high-income economies (% of total merchandise exports)",290.151515151515,0.23096356430593,165
+"213","GC.XPN.TOTL.GD.ZS","Expense (% of GDP)",318.79,0.231449043945284,100
+"364","NE.CON.PETC.ZS","Household final consumption expenditure, etc. (% of GDP)",290.61963190184,0.23159181511983,163
+"55","AG.LND.ARBL.HA","Arable land (hectares)",296.186046511628,0.231952917008848,172
+"731","SE.PRE.ENRR","School enrollment, preprimary (% gross)",302.829787234043,0.232442462863467,47
+"53","AG.LND.ARBL.ZS","Arable land (% of land area)",295.895348837209,0.232447720173478,172
+"754","SE.SEC.ENRL.GC.FE.ZS","Secondary education, general pupils (% female)",327.046511627907,0.232876176726638,43
+"544","DC.DAC.NZLL.CD","Net bilateral aid flows from DAC donors, New Zealand (current US$)",341.151515151515,0.233070839554995,33
+"573","NY.GSR.NFCY.CD","Net income from abroad (current US$)",286.811728395062,0.233350783159167,162
+"57","MS.MIL.TOTL.P1","Armed forces personnel, total",296.746031746032,0.233369487367743,126
+"707","IS.RRS.PASG.KM","Railways, passengers carried (million passenger-km)",299.070175438596,0.23498904084188,57
+"113","EN.ATM.CO2E.SF.ZS","CO2 emissions from solid fuel consumption (% of total)",313.771317829457,0.235186821271118,129
+"729","SP.RUR.TOTL.ZG","Rural population growth (annual %)",284.766081871345,0.235359359356018,171
+"205","SL.EMP.1524.SP.ZS","Employment to population ratio, ages 15-24, total (%)",275.32183908046,0.23579118088663,174
+"112","EN.CO2.BLDG.ZS","CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)",318.463235294118,0.236033498729397,136
+"738","SE.PRM.ENRR.MA","School enrollment, primary, male (% gross)",309.587301587302,0.236220139626685,63
+"889","SL.EMP.VULN.ZS","Vulnerable employment, total (% of total employment)",300.947368421053,0.236266749573652,57
+"880","SL.UEM.1524.MA.ZS","Unemployment, youth male (% of male labor force ages 15-24)",298.017441860465,0.236697275395737,172
+"755","SE.SEC.ENRL","Secondary education, pupils",288.75,0.236701534921292,16
+"355","TX.VAL.TECH.CD","High-technology exports (current US$)",308.95145631068,0.237015668877122,103
+"512","EN.ATM.METH.EG.KT.CE","Methane emissions in energy sector (thousand metric tons of CO2 equivalent)",292.239766081871,0.237425616741389,171
+"465","AG.PRD.LVSK.XD","Livestock production index (2004-2006 = 100)",274.241379310345,0.23766212937011,174
+"246","NE.CON.TETC.ZS","Final consumption expenditure, etc. (% of GDP)",289.818181818182,0.238121441573089,165
+"318","NY.GDS.TOTL.ZS","Gross domestic savings (% of GDP)",289.763636363636,0.238121441573089,165
+"177","FS.AST.PRVT.GD.ZS","Domestic credit to private sector (% of GDP)",280.391156462585,0.238419200864818,147
+"509","TM.VAL.MRCH.HI.ZS","Merchandise imports from high-income economies (% of total merchandise imports)",299.981818181818,0.238526614804397,165
+"305","GC.XPN.GSRV.CN","Goods and services expense (current LCU)",300.948453608247,0.239036995545169,97
+"633","IP.PAT.RESD","Patent applications, residents",327.292307692308,0.239084226056472,65
+"668","PA.NUS.PRVT.PP","PPP conversion factor, private consumption (LCU per international $)",285.24358974359,0.239150026570499,156
+"896","BX.TRF.PWKR.CD.DT","Workers' remittances and compensation of employees, received (current US$)",289.490196078431,0.239456549508817,153
+"327","NE.GDI.FPRV.ZS","Gross fixed capital formation, private sector (% of GDP)",308.173469387755,0.239648017664264,98
+"54","AG.LND.ARBL.HA.PC","Arable land (hectares per person)",287.395348837209,0.239675352521273,172
+"702","SE.PRM.ENRL.TC.ZS","Pupil-teacher ratio, primary",330.393939393939,0.239992779560708,33
+"96","FS.AST.CGOV.GD.ZS","Claims on central government, etc. (% GDP)",288.69387755102,0.240204041571857,147
+"736","SE.PRM.ENRR.FE","School enrollment, primary, female (% gross)",311.619047619048,0.240549160714124,63
+"893","FP.WPI.TOTL","Wholesale price index (2005 = 100)",315.776315789474,0.240596423245563,76
+"132","SL.FAM.WORK.FE.ZS","Contributing family workers, female (% of females employed)",315.209677419355,0.241058199137928,62
+"48","IS.AIR.GOOD.MT.K1","Air transport, freight (million ton-km)",302.636363636364,0.241059291252274,132
+"306","BX.GSR.MRCH.CD","Goods exports (BoP, current US$)",270.961538461538,0.241118357812978,156
+"464","CM.MKT.LDOM.NO","Listed domestic companies, total",324.761904761905,0.241134300481869,84
+"183","EG.ELC.NUCL.ZS","Electricity production from nuclear sources (% of total)",337.935483870968,0.241297869785408,31
+"32","AG.LND.AGRI.K2","Agricultural land (sq. km)",294.5,0.241974547104639,173
+"665","SI.POV.URHC","Poverty headcount ratio at urban poverty line (% of urban population)",339.769230769231,0.242202953444266,13
+"77","FM.LBL.BMNY.IR.ZS","Broad money to total reserves ratio",307.201388888889,0.243412845963462,144
+"42","NV.AGR.TOTL.ZS","Agriculture, value added (% of GDP)",286.490797546012,0.243435342650638,163
+"663","SI.POV.NAHC","Poverty headcount ratio at national poverty line (% of population)",364.5,0.243500078863802,24
+"842","SE.PRM.TENR.MA","Total enrollment, primary, male (% net)",368.717391304348,0.243624902155716,23
+"31","AG.LND.AGRI.ZS","Agricultural land (% of land area)",294.794797687861,0.24380682329916,173
+"739","SE.PRM.NENR.MA","School enrollment, primary, male (% net)",372.326086956522,0.244124352997456,23
+"770","NV.SRV.TETC.ZS","Services, etc., value added (% of GDP)",292.558282208589,0.24418381530546,163
+"51","EG.USE.COMM.CL.ZS","Alternative and nuclear energy (% of total energy use)",319.95703125,0.244461633347096,128
+"545","DC.DAC.NORL.CD","Net bilateral aid flows from DAC donors, Norway (current US$)",304.582417582418,0.245303283925066,91
+"504","TM.VAL.MRCH.R5.ZS","Merchandise imports from developing economies in South Asia (% of total merchandise imports)",301.055900621118,0.245984699512806,161
+"434","ST.INT.TVLR.CD","International tourism, receipts for travel items (current US$)",297.925806451613,0.246222674587645,155
+"354","TX.VAL.TECH.MF.ZS","High-technology exports (% of manufactured exports)",314.9,0.246794852030401,100
+"377","IQ.CPA.IRAI.XQ","IDA resource allocation index (1=low to 6=high)",297.954545454545,0.24685259591413,66
+"52","SH.HIV.ARTC.ZS","Antiretroviral therapy coverage (% of people with advanced HIV infection)",289.237623762376,0.246951066490164,101
+"420","GC.XPN.INTP.RV.ZS","Interest payments (% of revenue)",311.549019607843,0.247005436270107,102
+"747","SE.SEC.PRIV.ZS","School enrollment, secondary, private (% of total secondary)",342.386363636364,0.247849790457853,44
+"757","SE.SEC.TCHR","Secondary education, teachers",307.3,0.248154042241556,10
+"582","DT.ODA.ODAT.GN.ZS","Net ODA received (% of GNI)",290.829457364341,0.248179368412085,129
+"36","EN.ATM.METH.AG.KT.CE","Agricultural methane emissions (thousand metric tons of CO2 equivalent)",300.065088757396,0.248319694585671,169
+"433","ST.INT.TRNR.CD","International tourism, receipts for passenger transport items (current US$)",311.07874015748,0.248510376407232,127
+"160","BN.CAB.XOKA.CD","Current account balance (BoP, current US$)",308.358974358974,0.248652802795942,156
+"878","SL.UEM.TOTL.ZS","Unemployment, total (% of total labor force)",293.878612716763,0.248696760366937,173
+"790","CM.MKT.TRAD.CD","Stocks traded, total value (current US$)",344.083333333333,0.248784707162408,84
+"56","MS.MIL.TOTL.TF.ZS","Armed forces personnel (% of total labor force)",302.7578125,0.248835876969778,128
+"716","SM.POP.REFG.OR","Refugee population by country or territory of origin",302.654320987654,0.248885324241577,162
+"93","SE.PRM.UNER.FE","Children out of school, primary, female",377.304347826087,0.249267736324669,23
+"199","SL.SRV.EMPL.ZS","Employment in services (% of total employment)",328.848484848485,0.249442699844746,66
+"851","IP.TMK.NRES","Trademark applications, direct nonresident",329,0.249793011556385,88
+"506","TM.VAL.MRCH.OR.ZS","Merchandise imports from developing economies outside region (% of total merchandise imports)",305.798701298701,0.250113083257186,154
+"721","SP.POP.SCIE.RD.P6","Researchers in R&D (per million people)",348.979591836735,0.250124201862902,49
+"853","IP.TMK.TOTL","Trademark applications, total",322.465,0.25031583335401,100
+"895","BX.TRF.PWKR.DT.GD.ZS","Workers' remittances and compensation of employees, received (% of GDP)",301.855263157895,0.250386659114052,152
+"710","SE.ENR.SECO.FM.ZS","Ratio of female to male secondary enrollment (%)",335.764705882353,0.250511238579464,34
+"20","NY.ADJ.DFOR.GN.ZS","Adjusted savings: net forest depletion (% of GNI)",302.818181818182,0.250535901088505,99
+"108","EN.ATM.CO2E.LF.ZS","CO2 emissions from liquid fuel consumption (% of total) ",312.05,0.251278141857862,160
+"39","TX.VAL.AGRI.ZS.UN","Agricultural raw materials exports (% of merchandise exports)",311.278350515464,0.251493436575408,97
+"376","BX.GSR.CCIS.CD","ICT service exports (BoP, current US$)",296.888888888889,0.251502862026305,117
+"12","NY.ADJ.AEDU.GN.ZS","Adjusted savings: education expenditure (% of GNI)",309.493506493507,0.251688600375071,154
+"611","EN.ATM.NOXE.KT.CE","Nitrous oxide emissions (thousand metric tons of CO2 equivalent)",307.087719298246,0.252263695226816,171
+"197","SL.AGR.EMPL.ZS","Employment in agriculture (% of total employment)",324.015384615385,0.252440895203496,65
+"705","IS.RRS.TOTL.KM","Rail lines (total route-km)",355.242424242424,0.252897053203159,33
+"720","GB.XPD.RSDV.GD.ZS","Research and development expenditure (% of GDP)",343.145161290323,0.252898460484915,62
+"849","NE.TRD.GNFS.ZS","Trade (% of GDP)",309.366863905325,0.253215598246652,169
+"176","FS.AST.DOMS.GD.ZS","Domestic credit provided by banking sector (% of GDP)",286.931972789116,0.253244767882739,147
+"734","SE.PRM.ENRR","School enrollment, primary (% gross)",310.808823529412,0.253705841275362,68
+"623","NV.MNF.OTHR.ZS.UN","Other manufacturing (% of value added in manufacturing)",327.819444444444,0.253919154030392,72
+"19","NY.ADJ.DRES.GN.ZS","Adjusted savings: natural resources depletion (% of GNI)",313.996644295302,0.254190066081528,149
+"846","FI.RES.TOTL.MO","Total reserves in months of imports",324.118421052632,0.254296816693758,152
+"449","SL.TLF.TERT.MA.ZS","Labor force with tertiary education, male (% of male labor force)",363.827586206897,0.254517405292049,29
+"500","TM.VAL.MRCH.R1.ZS","Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports)",299.234042553192,0.254614791597387,141
+"719","SE.PRM.REPT.ZS","Repeaters, primary, total (% of total enrollment)",306.842105263158,0.254892147445311,19
+"630","SL.TLF.PART.MA.ZS","Part time employment, male (% of total male employment)",326.358490566038,0.255292270813145,53
+"189","SL.AGR.EMPL.MA.ZS","Employees, agriculture, male (% of male employment)",324.216666666667,0.255800233687705,60
+"256","AG.PRD.FOOD.XD","Food production index (2004-2006 = 100)",292.965517241379,0.256001817875278,174
+"426","ST.INT.XPND.CD","International tourism, expenditures (current US$)",292.63782051282,0.256127605231412,156
+"33","AG.AGR.TRAC.NO","Agricultural machinery, tractors",334.685950413223,0.256976661277854,121
+"207","EN.ATM.METH.EG.ZS","Energy related methane emissions (% of total)",310.514619883041,0.25708643999766,171
+"234","DT.DOD.DSTC.CD","External debt stocks, short-term (DOD, current US$)",284.645454545455,0.257126585519028,110
+"487","TX.VAL.MRCH.R1.ZS","Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports)",306.096,0.257141861347724,125
+"718","SE.PRM.REPT.MA.ZS","Repeaters, primary, male (% of male enrollment)",300.416666666667,0.257325183974608,24
+"843","NY.GDP.TOTL.RT.ZS","Total natural resources rents (% of GDP)",317.929012345679,0.257354334110262,162
+"852","IP.TMK.RESD","Trademark applications, direct resident",339.471830985916,0.257359738092522,71
+"14","NY.ADJ.DNGY.GN.ZS","Adjusted savings: energy depletion (% of GNI)",325.125,0.257699406334529,112
+"457","FR.INR.LEND","Lending interest rate (%)",318.223880597015,0.258092369006711,134
+"265","TX.VAL.FUEL.ZS.UN","Fuel exports (% of merchandise exports)",343.113636363636,0.258235146368572,88
+"379","SH.IMM.MEAS","Immunization, measles (% of children ages 12-23 months)",302.591715976331,0.258240934319032,169
+"473","TM.VAL.MANF.ZS.UN","Manufactures imports (% of merchandise imports)",326.637254901961,0.258942962935004,102
+"123","BX.GSR.CMCP.ZS","Communications, computer, etc. (% of service exports, BoP)",324.791666666667,0.25923700527602,144
+"499","TM.VAL.MRCH.RS.ZS","Merchandise imports by the reporting economy, residual (% of total merchandise imports)",311.763636363636,0.259399880908035,165
+"133","SL.FAM.WORK.MA.ZS","Contributing family workers, male (% of males employed)",319.177419354839,0.259805159907913,62
+"472","TX.VAL.MANF.ZS.UN","Manufactures exports (% of merchandise exports)",302.632653061225,0.259853295418271,98
+"427","ST.INT.TRNX.CD","International tourism, expenditures for passenger transport items (current US$)",320.139705882353,0.259865907239956,136
+"733","SE.PRE.ENRR.MA","School enrollment, preprimary, male (% gross)",316.85,0.260180372980603,40
+"516","NY.GDP.MINR.RT.ZS","Mineral rents (% of GDP)",334.386178861789,0.260437338927338,123
+"179","EG.ELC.LOSS.ZS","Electric power transmission and distribution losses (% of output)",316.992481203008,0.260478299887944,133
+"627","SH.XPD.OOPC.TO.ZS","Out-of-pocket health expenditure (% of total expenditure on health)",318.28869047619,0.260711206840236,168
+"127","GC.XPN.COMP.CN","Compensation of employees (current LCU)",307.701030927835,0.260816790237949,97
+"192","SL.SRV.EMPL.FE.ZS","Employees, services, female (% of female employment)",350.229508196721,0.260876133453721,61
+"881","SL.UEM.1524.ZS","Unemployment, youth total (% of total labor force ages 15-24)",301.362068965517,0.260978376727938,174
+"612","EN.ATM.NOXE.EG.KT.CE","Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent)",297.719298245614,0.261085324058593,171
+"742","SE.SEC.NENR","School enrollment, secondary (% net)",372.541666666667,0.261118233140804,24
+"607","BN.GSR.GNFS.CD","Net trade in goods and services (BoP, current US$)",315.955128205128,0.261239151879495,156
+"140","IQ.CPA.DEBT.XQ","CPIA debt policy rating (1=low to 6=high)",312.947368421053,0.261583337714449,57
+"583","DT.ODA.ODAT.GI.ZS","Net ODA received (% of gross capital formation)",302.016260162602,0.261589781373295,123
+"494","TX.VAL.MRCH.WR.ZS","Merchandise exports to developing economies within region (% of total merchandise exports)",305.995327102804,0.261699463212077,107
+"145","IQ.CPA.FISP.XQ","CPIA fiscal policy rating (1=low to 6=high)",305.816666666667,0.261742304246056,60
+"266","TM.VAL.FUEL.ZS.UN","Fuel imports (% of merchandise imports)",345.235294117647,0.261957488617645,102
+"554","BN.TRF.CURR.CD","Net current transfers (BoP, current US$)",302.007142857143,0.26236290951633,140
+"495","TX.VAL.MRCH.AL.ZS","Merchandise exports to economies in the Arab World (% of total merchandise exports)",309.042944785276,0.262890869056151,163
+"432","ST.INT.RCPT.CD","International tourism, receipts (current US$)",298.589506172839,0.263177513324233,162
+"758","SE.SEC.TCHR.FE.ZS","Secondary education, teachers (% female)",335.388888888889,0.263224159585949,18
+"382","NE.IMP.GNFS.ZS","Imports of goods and services (% of GDP)",314.834319526627,0.264088414979639,169
+"756","SE.SEC.ENRL.FE.ZS","Secondary education, pupils (% female)",341.735294117647,0.264218620369501,34
+"762","SE.SEC.AGES","Secondary school starting age (years)",296.37,0.264343446960024,50
+"698","DT.TDS.DPPG.GN.ZS","Public and publicly guaranteed debt service (% of GNI)",308.803738317757,0.264347955011137,107
+"110","EN.CO2.MANF.ZS","CO2 emissions from manufacturing industries and construction (% of total fuel combustion)",327.382352941176,0.264638559874763,136
+"100","EN.ATM.CO2E.KD.GD","CO2 emissions (kg per 2000 US$ of GDP)",309.556213017751,0.265322045969812,169
+"184","EG.ELC.PETR.ZS","Electricity production from oil sources (% of total)",319.161654135338,0.265702103056452,133
+"421","GC.XPN.INTP.CN","Interest payments (current LCU)",330.544554455446,0.2657500377328,101
+"349","SH.XPD.PRIV.ZS","Health expenditure, private (% of GDP)",327.142857142857,0.266112756782151,168
+"35","EN.ATM.METH.AG.ZS","Agricultural methane emissions (% of total)",310.881656804734,0.266371241426225,169
+"101","EN.ATM.CO2E.PP.GD.KD","CO2 emissions (kg per 2005 PPP $ of GDP)",311.202380952381,0.266901339694232,168
+"309","GC.REV.GOTR.CN","Grants and other revenue (current LCU)",331.010752688172,0.267048218954989,93
+"827","NY.TTF.GNFS.KN","Terms of trade adjustment (constant LCU)",306.745098039216,0.267292630547161,153
+"131","IS.SHP.GOOD.TU","Container port traffic (TEU: 20 foot equivalent units)",337.752577319588,0.267401473105527,97
+"590","DT.ODA.ODAT.KD","Net official development assistance received (constant 2009 US$)",314.534090909091,0.267757184321047,132
+"534","DC.DAC.FINL.CD","Net bilateral aid flows from DAC donors, Finland (current US$)",344.597014925373,0.267985078991042,67
+"493","TX.VAL.MRCH.OR.ZS","Merchandise exports to developing economies outside region (% of total merchandise exports)",308.059210526316,0.268514504248118,152
+"507","TM.VAL.MRCH.WR.ZS","Merchandise imports from developing economies within region (% of total merchandise imports)",299.018348623853,0.268780403158976,109
+"161","BX.TRF.CURR.CD","Current transfers, receipts (BoP, current US$)",312.350993377483,0.26895112161153,151
+"614","SH.MED.NUMW.P3","Nurses and midwives (per 1,000 people)",324.3125,0.269095206467417,16
+"105","EN.CO2.ETOT.ZS","CO2 emissions from electricity and heat production, total (% of total fuel combustion)",332.299270072993,0.269556492351989,137
+"894","BM.TRF.PWKR.CD.DT","Workers' remittances and compensation of employees, paid (current US$)",308.741258741259,0.271054875824414,143
+"406","NV.IND.TOTL.ZS","Industry, value added (% of GDP)",295.122699386503,0.271123184906616,163
+"397","BM.GSR.FCTY.CD","Income payments (BoP, current US$)",311.928104575163,0.271188203217415,153
+"17","NY.ADJ.DMIN.GN.ZS","Adjusted savings: mineral depletion (% of GNI)",339.185950413223,0.272106203772716,121
+"805","TM.TAX.TCOM.SM.FN.ZS","Tariff rate, most favored nation, simple mean, primary products (%)",347.941176470588,0.272808483269554,34
+"469","NV.MNF.MTRN.ZS.UN","Machinery and transport equipment (% of value added in manufacturing)",314.470588235294,0.273169050098332,68
+"181","EG.ELC.HYRO.ZS","Electricity production from hydroelectric sources (% of total)",343.163865546218,0.273212790012063,119
+"709","SE.ENR.PRIM.FM.ZS","Ratio of female to male primary enrollment (%)",332.952380952381,0.273703438061197,63
+"793","GC.XPN.TRFT.CN","Subsidies and other transfers (current LCU)",319.255319148936,0.274173716257814,94
+"513","MS.MIL.XPND.ZS","Military expenditure (% of central government expenditure)",351.593023255814,0.274523089750897,86
+"38","EN.ATM.NOXE.AG.KT.CE","Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)",314.402366863905,0.274923499550672,169
+"170","FR.INR.DPST","Deposit interest rate (%)",317.478873239437,0.27513147507877,142
+"879","SL.UEM.1524.FE.ZS","Unemployment, youth female (% of female labor force ages 15-24)",308.816091954023,0.275399055808444,174
+"102","EN.ATM.CO2E.PP.GD","CO2 emissions (kg per PPP $ of GDP)",314.982142857143,0.275539092139007,168
+"352","SH.XPD.PUBL","Health expenditure, public (% of total health expenditure)",317.389880952381,0.275676994251936,168
+"172","NY.GDP.DISC.KN","Discrepancy in expenditure estimate of GDP (constant LCU)",319.754098360656,0.275866209504082,122
+"741","SE.SEC.ENRR","School enrollment, secondary (% gross)",333.025641025641,0.276078524239752,39
+"798","TM.TAX.MANF.SM.AR.ZS","Tariff rate, applied, simple mean, manufactured products (%)",374.676470588235,0.276239861588675,34
+"481","CM.MKT.LCAP.CD","Market capitalization of listed companies (current US$)",347.6875,0.276299073122226,80
+"785","DT.DOD.DSTC.IR.ZS","Short-term debt (% of total reserves)",314.696078431373,0.27670700613807,102
+"550","DC.DAC.TOTL.CD","Net bilateral aid flows from DAC donors, Total (current US$)",316.773333333333,0.276753485584171,150
+"588","DT.ODA.ALLD.KD","Net official development assistance and official aid received (constant 2009 US$)",320.285234899329,0.276882773750378,149
+"744","SE.SEC.NENR.FE","School enrollment, secondary, female (% net)",366.307692307692,0.277014081041495,26
+"40","TM.VAL.AGRI.ZS.UN","Agricultural raw materials imports (% of merchandise imports)",340.990099009901,0.277131506365827,101
+"158","AG.PRD.CROP.XD","Crop production index (2004-2006 = 100)",307.534482758621,0.27734963010279,174
+"681","SE.PRM.DURS","Primary education, duration (years)",300.87,0.277363019254725,50
+"552","DC.DAC.USAL.CD","Net bilateral aid flows from DAC donors, United States (current US$)",313.398148148148,0.277593079757112,108
+"838","DT.TDS.DECT.EX.ZS","Total debt service (% of exports of goods, services and income)",336.3125,0.278270977870893,96
+"128","TX.VAL.OTHR.ZS.WT","Computer, communications and other services (% of commercial service exports)",327.993243243243,0.278897660553406,148
+"606","BN.GSR.MRCH.CD","Net trade in goods (BoP, current US$)",315.50641025641,0.27937066043573,156
+"598","DT.NFL.UNCF.CD","Net official flows from UN agencies, UNICEF (current US$)",321.263157894737,0.279444311690307,114
+"591","DT.ODA.ODAT.CD","Net official development assistance received (current US$)",313.405303030303,0.279449954509203,132
+"841","SE.PRM.TENR.FE","Total enrollment, primary, female (% net)",383.478260869565,0.279491769260325,23
+"210","SE.XPD.PRIM.PC.ZS","Expenditure per student, primary (% of GDP per capita)",370.875,0.279497316724129,32
+"752","SE.SEC.DURS","Secondary education, duration (years)",283.280487804878,0.279513113144121,41
+"490","TX.VAL.MRCH.R4.ZS","Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports)",320.849693251534,0.27952990220198,163
+"876","SL.UEM.TOTL.FE.ZS","Unemployment, female (% of female labor force)",302.362068965517,0.279751229833362,174
+"448","SL.TLF.TERT.FE.ZS","Labor force with tertiary education, female (% of female labor force)",369.655172413793,0.279783273395567,29
+"622","EN.ATM.GHGO.KT.CE","Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)",328.812865497076,0.279940402167876,171
+"97","FS.AST.DOMO.GD.ZS","Claims on other sectors of the domestic economy (% of GDP)",329.58,0.280369859757998,125
+"392","SH.STA.ACSN.UR","Improved sanitation facilities, urban (% of urban population with access)",307.996428571429,0.280960451059245,140
+"784","DT.DOD.DSTC.ZS","Short-term debt (% of total external debt)",311.736363636364,0.281027268949187,110
+"443","SL.TLF.PRIM.MA.ZS","Labor force with primary education, male (% of male labor force)",363.586206896552,0.281076082091791,29
+"351","SH.XPD.PUBL.GX.ZS","Health expenditure, public (% of government expenditure)",316.720238095238,0.281269266620331,168
+"570","BN.GSR.FCTY.CD","Net income (BoP, current US$)",312.318181818182,0.281821842044041,154
+"690","BM.TRF.PRVT.CD","Private current transfers, payments (BoP, current US$)",326.253521126761,0.281956626454865,142
+"190","SL.IND.EMPL.FE.ZS","Employees, industry, female (% of female employment)",345.786885245902,0.282167010896583,61
+"378","SH.IMM.IDPT","Immunization, DPT (% of children ages 12-23 months)",318.224852071006,0.282893758121683,169
+"151","IQ.CPA.PUBS.XQ","CPIA public sector management and institutions cluster average (1=low to 6=high)",332.568181818182,0.283078706193556,66
+"350","SH.XPD.PUBL.ZS","Health expenditure, public (% of GDP)",326.571428571429,0.283201101860008,168
+"745","SE.SEC.ENRR.MA","School enrollment, secondary, male (% gross)",325.382352941176,0.283316456171905,34
+"480","CM.MKT.LCAP.GD.ZS","Market capitalization of listed companies (% of GDP)",358.05,0.284043770964467,80
+"713","PX.REX.REER","Real effective exchange rate index (2005 = 100)",313.620689655172,0.284344904283821,87
+"391","SH.STA.ACSN.RU","Improved sanitation facilities, rural (% of rural population with access)",305.926573426573,0.284699949416181,143
+"735","SE.PRM.NENR","School enrollment, primary (% net)",380.333333333333,0.284942226687454,30
+"527","TT.PRI.MRCH.XD.WD","Net barter terms of trade index (2000 = 100)",316.676470588235,0.28522924174748,170
+"510","TG.VAL.TOTL.GD.ZS","Merchandise trade (% of GDP)",315.047904191617,0.285730335071975,167
+"626","SH.XPD.OOPC.ZS","Out-of-pocket health expenditure (% of private expenditure on health)",325.739130434783,0.285801105364796,161
+"79","IC.BUS.DISC.XQ","Business extent of disclosure index (0=less disclosure to 10=more disclosure)",333.360655737705,0.286426665709336,61
+"823","SP.POP.TECH.RD.P6","Technicians in R&D (per million people)",368.219512195122,0.286610021276527,41
+"602","DT.NFL.WFPG.CD","Net official flows from UN agencies, WFP (current US$)",335.218181818182,0.28673721006525,55
+"83","GC.DOD.TOTL.CN","Central government debt, total (current LCU)",324.255813953488,0.287497856879595,43
+"447","SL.TLF.TERT.ZS","Labor force with tertiary education (% of total)",371,0.287593646447265,33
+"725","BM.GSR.ROYL.CD","Royalty and license fees, payments (BoP, current US$)",333.768518518519,0.287897890368156,108
+"839","DT.TDS.DECT.GN.ZS","Total debt service (% of GNI)",323.626168224299,0.287982320069561,107
+"844","FI.RES.TOTL.DT.ZS","Total reserves (% of total external debt)",327.794117647059,0.288118485328464,102
+"157","IQ.CPA.TRAN.XQ","CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)",336.663265306122,0.28829861266052,49
+"760","SE.SEC.ENRL.VO","Secondary education, vocational pupils",386.727272727273,0.288371616697418,11
+"585","DT.ODA.ODAT.PC.ZS","Net ODA received per capita (current US$)",317.045454545455,0.288439563083041,132
+"166","DT.TDS.DPPF.XP.ZS","Debt service (PPG and IMF only, % of exports, excluding workers' remittances)",325.94,0.288928620224123,100
+"440","IE.PPI.WATR.CD","Investment in water and sanitation with private participation (current US$)",409.666666666667,0.289168759011669,3
+"501","TM.VAL.MRCH.R2.ZS","Merchandise imports from developing economies in Europe & Central Asia (% of total merchandise imports)",346.220930232558,0.289448918989488,129
+"22","NY.ADJ.NNAT.GN.ZS","Adjusted savings: net national savings (% of GNI)",331.130136986301,0.289694015743906,146
+"536","DC.DAC.DEUL.CD","Net bilateral aid flows from DAC donors, Germany (current US$)",331.739436619718,0.289819375424162,142
+"116","EN.ATM.CO2E.EG.ZS","CO2 intensity (kg per kg of oil equivalent energy use)",341.102189781022,0.290004945695595,137
+"589","DT.ODA.ALLD.CD","Net official development assistance and official aid received (current US$)",320.453020134228,0.290287363198231,149
+"159","BN.CAB.XOKA.GD.ZS","Current account balance (% of GDP)",332.577922077922,0.290863047212769,154
+"441","SL.TLF.PRIM.ZS","Labor force with primary education (% of total)",359.666666666667,0.290940413061113,33
+"786","GC.REV.SOCL.ZS","Social contributions (% of revenue)",354.666666666667,0.290963457887808,78
+"732","SE.PRE.ENRR.FE","School enrollment, preprimary, female (% gross)",327,0.291089421382759,40
+"778","TM.TAX.TCOM.IP.ZS","Share of tariff lines with international peaks, primary products (%)",380.882352941176,0.291095717615213,34
+"339","NY.GNS.ICTR.ZS","Gross savings (% of GDP)",333.234848484848,0.291119804061116,132
+"831","IC.LGL.DURS","Time required to enforce a contract (days)",357.044943820225,0.291176578135917,89
+"308","GC.REV.GOTR.ZS","Grants and other revenue (% of revenue)",346.032258064516,0.291219864468654,93
+"625","GC.TAX.OTHR.CN","Other taxes (current LCU)",337.527472527473,0.292051791820926,91
+"211","SE.XPD.SECO.PC.ZS","Expenditure per student, secondary (% of GDP per capita)",355.142857142857,0.292064850940495,28
+"610","SH.VAC.TTNS.ZS","Newborns protected against tetanus (%)",311.4,0.292242048466305,100
+"777","TM.TAX.MANF.IP.ZS","Share of tariff lines with international peaks, manufactured products (%)",357.294117647059,0.29242771830344,34
+"562","DT.NFL.MIDA.CD","Net financial flows, IDA (NFL, current US$)",317.086956521739,0.292477027119551,92
+"531","DC.DAC.CANL.CD","Net bilateral aid flows from DAC donors, Canada (current US$)",334.897196261682,0.292502344413228,107
+"162","GC.TAX.IMPT.ZS","Customs and other import duties (% of tax revenue)",343.5,0.292672218389361,82
+"422","FR.INR.LNDP","Interest rate spread (lending rate minus deposit rate, %)",331.109375,0.292788917245182,128
+"395","SH.H2O.SAFE.UR.ZS","Improved water source, urban (% of urban population with access)",314.855072463768,0.293082169429228,138
+"15","NY.ADJ.DNGY.CD","Adjusted savings: energy depletion (current US$)",340.771186440678,0.293179814295906,118
+"489","TX.VAL.MRCH.R3.ZS","Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports)",332.596026490066,0.293265535667433,151
+"863","BX.GSR.TRVL.ZS","Travel services (% of service exports, BoP)",341.166666666667,0.293276767861504,144
+"783","DT.DOD.DSTC.XP.ZS","Short-term debt (% of exports of goods, services and income)",336.2,0.293409596453761,95
+"595","DT.NFL.UNDP.CD","Net official flows from UN agencies, UNDP (current US$)",339.515873015873,0.293594044049706,126
+"857","TX.VAL.TRAN.ZS.WT","Transport services (% of commercial service exports)",336.524475524476,0.293845300482212,143
+"859","BX.GSR.TRAN.ZS","Transport services (% of service exports, BoP)",338.496503496504,0.294552122283976,143
+"722","GC.REV.XGRT.GD.ZS","Revenue, excluding grants (% of GDP)",348.771428571429,0.295139580511276,105
+"538","DC.DAC.IRLL.CD","Net bilateral aid flows from DAC donors, Ireland (current US$)",351.292682926829,0.29533097446013,41
+"763","IT.NET.SECR","Secure Internet servers",282.333333333333,0.295483935002373,39
+"617","TX.VAL.MMTL.ZS.UN","Ores and metals exports (% of merchandise exports)",356.484210526316,0.296094194911727,95
+"467","SL.UEM.LTRM.FE.ZS","Long-term unemployment, female (% of female unemployment)",345,0.296153098639784,43
+"502","TM.VAL.MRCH.R3.ZS","Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports)",336.188741721854,0.296243615298668,151
+"584","DT.ODA.ODAT.MP.ZS","Net ODA received (% of imports of goods and services)",328.710526315789,0.29675285916723,114
+"861","TX.VAL.TRVL.ZS.WT","Travel services (% of commercial service exports)",340.354166666667,0.296959369222824,144
+"618","TM.VAL.MMTL.ZS.UN","Ores and metals imports (% of merchandise imports)",355.673267326733,0.297109872207919,101
+"111","EN.CO2.OTHX.ZS","CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",344.688,0.297247738321334,125
+"394","SH.H2O.SAFE.RU.ZS","Improved water source, rural (% of rural population with access)",311.285211267606,0.297496930534042,142
+"555","NY.TRF.NCTR.KN","Net current transfers from abroad (constant LCU)",335.058333333333,0.297502317472944,120
+"616","NY.GDP.PETR.RT.ZS","Oil rents (% of GDP)",343.416666666667,0.297749892668176,96
+"58","MS.MIL.XPRT.KD","Arms exports (constant 1990 US$)",388,0.298074206262741,21
+"4","NY.ADJ.SVNX.GN.ZS","Adjusted net savings, excluding particulate emission damage (% of GNI)",331.294776119403,0.298561610630143,134
+"168","DT.TDS.DECT.CD","Debt service on external debt, total (TDS, current US$)",320.372727272727,0.299110867625684,110
+"628","SL.TLF.PART.FE.ZS","Part time employment, female (% of total female employment)",357.169811320755,0.299509876027652,53
+"769","BM.GSR.NFSV.CD","Service imports (BoP, current US$)",353.224358974359,0.299784147721706,156
+"869","SL.UEM.PRIM.MA.ZS","Unemployment with primary education, male (% of male unemployment)",375.214285714286,0.300171041723698,56
+"888","SL.EMP.VULN.MA.ZS","Vulnerable employment, male (% of male employment)",333,0.300428768571037,53
+"505","TM.VAL.MRCH.R6.ZS","Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports)",332.401960784314,0.300480651353948,153
+"90","NV.MNF.CHEM.ZS.UN","Chemicals (% of value added in manufacturing)",353.213114754098,0.301079779278017,61
+"817","GC.TAX.YPKG.RV.ZS","Taxes on income, profits and capital gains (% of revenue)",345.826923076923,0.30144204474212,104
+"834","IC.REG.DURS","Time required to start a business (days)",339.85,0.301475949951779,150
+"84","AG.PRD.CREL.MT","Cereal production (metric tons)",330.550898203593,0.301698949003467,167
+"167","DT.TDS.DPPG.CD","Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)",338.495454545455,0.301704770715209,110
+"6","NY.ADJ.SVNG.GN.ZS","Adjusted net savings, including particulate emission damage (% of GNI)",333.815789473684,0.301775979061587,133
+"597","DT.NFL.UNCR.CD","Net official flows from UN agencies, UNHCR (current US$)",347.073170731707,0.301944902929559,41
+"897","BX.TRF.PWKR.CD","Workers' remittances, receipts (BoP, current US$)",320.508064516129,0.302030033866923,124
+"631","SL.TLF.PART.ZS","Part time employment, total (% of total employment)",348.698113207547,0.302520226779861,53
+"789","CM.MKT.TRAD.GD.ZS","Stocks traded, total value (% of GDP)",365.571428571429,0.302686979847988,84
+"759","SE.SEC.TCHR.FE","Secondary education, teachers, female",350.714285714286,0.302774713815336,14
+"62","FD.RES.LIQU.AS.ZS","Bank liquid reserves to bank assets ratio (%)",333.413461538462,0.302981295245212,104
+"98","FM.AST.DOMO.ZG.M3","Claims on other sectors of the domestic economy (annual growth as % of broad money)",338.604545454545,0.303170681356191,110
+"822","BX.GRT.TECH.CD.WD","Technical cooperation grants (BoP, current US$)",320.028776978417,0.303702367163732,139
+"542","DC.DAC.LUXL.CD","Net bilateral aid flows from DAC donors, Luxembourg (current US$)",345.36,0.304032521411419,25
+"697","DT.TDS.DPPG.XP.ZS","Public and publicly guaranteed debt service (% of exports, excluding workers' remittances)",349.421052631579,0.304962769274862,95
+"815","GC.TAX.GSRV.VA.ZS","Taxes on goods and services (% value added of industry and services)",358.34,0.305776955640679,100
+"867","SL.UEM.PRIM.ZS","Unemployment with primary education (% of total unemployment)",379.616666666667,0.306687263125286,60
+"540","DC.DAC.JPNL.CD","Net bilateral aid flows from DAC donors, Japan (current US$)",344.75,0.306730042804066,136
+"126","GC.XPN.COMP.ZS","Compensation of employees (% of expense)",342.448979591837,0.307463282374955,98
+"148","IQ.CPA.SOCI.XQ","CPIA policies for social inclusion/equity cluster average (1=low to 6=high)",337.015151515152,0.30764566880531,66
+"746","SE.SEC.NENR.MA","School enrollment, secondary, male (% net)",396.115384615385,0.308249661138113,26
+"764","IT.NET.SECR.P6","Secure Internet servers (per 1 million people)",293,0.308379559550239,39
+"491","TX.VAL.MRCH.R5.ZS","Merchandise exports to developing economies in South Asia (% of total merchandise exports)",345.130573248408,0.308572227937333,157
+"196","SL.EMP.MPYR.ZS","Employers, total (% of employment)",386.779661016949,0.3088858155097,59
+"820","GC.TAX.INTT.RV.ZS","Taxes on international trade (% of revenue)",352.325842696629,0.309288847825222,89
+"353","SH.XPD.TOTL.ZS","Health expenditure, total (% of GDP)",333.190476190476,0.309308651049334,168
+"492","TX.VAL.MRCH.R6.ZS","Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports)",341.809210526316,0.309489568020082,152
+"810","GC.TAX.TOTL.GD.ZS","Tax revenue (% of GDP)",347.311320754717,0.309666773039462,106
+"16","NY.ADJ.ICTR.GN.ZS","Adjusted savings: gross savings (% of GNI)",336.897260273973,0.309798204962884,146
+"80","GC.BAL.CASH.GD.ZS","Cash surplus/deficit (% of GDP)",348.623762376238,0.309913852185038,101
+"304","GC.XPN.GSRV.ZS","Goods and services expense (% of expense)",356.322916666667,0.310472672678255,96
+"236","SH.XPD.EXTR.ZS","External resources for health (% of total expenditure on health)",349.864,0.310552743085283,125
+"122","TM.VAL.SERV.CD.WT","Commercial service imports (current US$)",358.49358974359,0.310703389115797,156
+"468","SL.UEM.LTRM.MA.ZS","Long-term unemployment, male (% of male unemployment)",348.441860465116,0.31089248048787,43
+"86","NE.GDI.STKB.KN","Changes in inventories (constant LCU)",345.334558823529,0.31114281949481,136
+"87","NE.GDI.STKB.CN","Changes in inventories (current LCU)",345.647058823529,0.311340209490634,153
+"193","SL.SRV.EMPL.MA.ZS","Employees, services, male (% of male employment)",355.704918032787,0.311383360803143,61
+"296","NY.GNP.MKTP.KD.ZG","GNI growth (annual %)",359.43537414966,0.311652787564431,147
+"340","NY.GNS.ICTR.GN.ZS","Gross savings (% of GNI)",335.280303030303,0.311856102266662,132
+"299","NY.GNP.PCAP.KD.ZG","GNI per capita growth (annual %)",361.482993197279,0.31215851546964,147
+"259","BX.KLT.DINV.WD.GD.ZS","Foreign direct investment, net inflows (% of GDP)",342.925925925926,0.312541980272514,162
+"135","IC.REG.COST.PC.ZS","Cost of business start-up procedures (% of GNI per capita)",342.954545454545,0.313144409563504,154
+"330","SE.PRM.GINT.MA.ZS","Gross intake rate in grade 1, male (% of relevant age group)",340.129032258065,0.313516410097748,31
+"547","DC.DAC.ESPL.CD","Net bilateral aid flows from DAC donors, Spain (current US$)",354.573770491803,0.314037116447419,61
+"195","SL.EMP.MPYR.MA.ZS","Employers, male (% of employment)",384.203703703704,0.314721165192922,54
+"276","NY.GDP.PCAP.KD.ZG","GDP per capita growth (annual %)",349.502923976608,0.31476799450486,171
+"743","SE.SEC.ENRR.FE","School enrollment, secondary, female (% gross)",358.058823529412,0.314978619810717,34
+"85","AG.YLD.CREL.KG","Cereal yield (kg per hectare)",348.568862275449,0.315066514872299,167
+"808","TM.TAX.TCOM.WM.FN.ZS","Tariff rate, most favored nation, weighted mean, primary products (%)",391.647058823529,0.315349110763822,34
+"700","SE.XPD.TOTL.GD.ZS","Public spending on education, total (% of GDP)",350.375,0.315946117635776,8
+"560","DT.NFL.BLAT.CD","Net financial flows, bilateral (NFL, current US$)",347.62962962963,0.316417476467647,108
+"549","DC.DAC.CHEL.CD","Net bilateral aid flows from DAC donors, Switzerland (current US$)",353.34693877551,0.316478363922159,98
+"88","NE.GDI.STKB.CD","Changes in inventories (current US$)",338.792763157895,0.317070673877991,152
+"331","SE.PRM.GINT.ZS","Gross intake rate in grade 1, total (% of relevant age group)",349.142857142857,0.31716570650437,28
+"445","SL.TLF.SECO.FE.ZS","Labor force with secondary education, female (% of female labor force)",366.5,0.317219725116585,30
+"456","AG.LND.CREL.HA","Land under cereal production (hectares)",339.904191616766,0.317679537371724,167
+"252","IT.NET.BBND","Fixed broadband Internet subscribers",347.746478873239,0.317872367820653,142
+"34","AG.LND.TRAC.ZS","Agricultural machinery, tractors per 100 sq. km of arable land",355.752,0.31869464211827,125
+"147","IQ.CPA.MACR.XQ","CPIA macroeconomic management rating (1=low to 6=high)",340.473214285714,0.318786382894728,56
+"568","DT.NFL.RDBN.CD","Net financial flows, RDB nonconcessional (NFL, current US$)",356.208333333333,0.318902601269961,96
+"696","SG.GEN.PARL.ZS","Proportion of seats held by women in national parliaments (%)",346.207547169811,0.318929604395958,106
+"541","DC.DAC.KORL.CD","Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",369.190476190476,0.318989312564246,63
+"593","DT.NFL.IFAD.CD","Net official flows from UN agencies, IFAD (current US$)",358.305555555556,0.3193736852633,72
+"788","IC.REG.PROC","Start-up procedures to register a business (number)",355.633858267717,0.31946212207187,127
+"81","GC.BAL.CASH.CN","Cash surplus/deficit (current LCU)",352.858585858586,0.319485521949681,99
+"776","TM.TAX.MRCH.IP.ZS","Share of tariff lines with international peaks, all products (%)",392.529411764706,0.319674852548903,34
+"290","EN.CLC.GHGR.MT.CE","GHG net emissions/removals by LUCF (Mt of CO2 equivalent)",399.923076923077,0.320364159738892,39
+"272","NY.GDP.MKTP.KD.ZG","GDP growth (annual %)",348.970760233918,0.32048108013724,171
+"670","VC.PKP.TOTL.UN","Presence of peace keepers (number of troops, police, and military observers in mandate)",263.25,0.320485089140613,8
+"155","IQ.CPA.STRC.XQ","CPIA structural policies cluster average (1=low to 6=high)",347.938461538462,0.320618275520062,65
+"703","SE.SEC.ENRL.TC.ZS","Pupil-teacher ratio, secondary",366.380952380952,0.320884874737669,21
+"619","EE.BOD.TOTL.KG","Organic water pollutant (BOD) emissions (kg per day)",355.125,0.320981488385978,8
+"253","IT.NET.BBND.P2","Fixed broadband Internet subscribers (per 100 people)",347.915492957746,0.321400015294116,142
+"141","IQ.CPA.ECON.XQ","CPIA economic management cluster average (1=low to 6=high)",328.030303030303,0.321747232118061,66
+"833","IC.PRP.DURS","Time required to register property (days)",358.661016949153,0.322469901830918,118
+"561","DT.NFL.MIBR.CD","Net financial flows, IBRD (NFL, current US$)",350.635416666667,0.322723869922488,96
+"683","SE.PRM.ENRL.FE.ZS","Primary education, pupils (% female)",347.539682539683,0.322857440028799,63
+"18","NY.ADJ.DMIN.CD","Adjusted savings: mineral depletion (current US$)",371.444444444444,0.3232848312615,126
+"818","GC.TAX.YPKG.ZS","Taxes on income, profits and capital gains (% of total taxes)",352.125,0.324980482733417,104
+"37","EN.ATM.NOXE.AG.ZS","Agricultural nitrous oxide emissions (% of total)",340.970414201183,0.325492429799709,169
+"438","IE.PPI.TELE.CD","Investment in telecoms with private participation (current US$)",364.967741935484,0.32578125676354,62
+"149","IQ.CPA.ENVR.XQ","CPIA policy and institutions for environmental sustainability rating (1=low to 6=high)",342.836206896552,0.326643124103655,58
+"850","BG.GSR.NFSV.GD.ZS","Trade in services (% of GDP)",363.513157894737,0.327007616566626,152
+"508","TM.VAL.MRCH.AL.ZS","Merchandise imports from economies in the Arab World (% of total merchandise imports)",345.846875,0.327349479429164,160
+"684","SE.PRM.TCHR","Primary education, teachers",332.12,0.327559326578786,25
+"143","IQ.CPA.PRES.XQ","CPIA equity of public resource use rating (1=low to 6=high)",341.63,0.32769312026363,50
+"848","IC.TAX.TOTL.CP.ZS","Total tax rate (% of commercial profits)",360.430463576159,0.328028954418985,151
+"600","DT.NFL.UNRW.CD","Net official flows from UN agencies, UNRWA (current US$)",347,0.328554193911484,4
+"792","GC.XPN.TRFT.ZS","Subsidies and other transfers (% of expense)",366.521276595745,0.329047591785684,94
+"412","FP.CPI.TOTL.ZG","Inflation, consumer prices (annual %)",344.723270440252,0.329215150189334,159
+"814","GC.TAX.GSRV.RV.ZS","Taxes on goods and services (% of revenue)",371.186274509804,0.330397619509928,102
+"99","FM.AST.PRVT.ZG.M3","Claims on private sector (annual growth as % of broad money)",347.778911564626,0.330427275566468,147
+"414","TX.VAL.INSF.ZS.WT","Insurance and financial services (% of commercial service exports)",358.540650406504,0.330868307019688,123
+"60","FB.ATM.TOTL.P5","Automated teller machines (ATMs) (per 100,000 adults)",363.677852348993,0.331353657513566,149
+"565","DT.NFL.MLAT.CD","Net financial flows, multilateral (NFL, current US$)",352.709090909091,0.331530476483154,110
+"418","VC.IHR.PSRC.P5","Intentional homicides (per 100,000 people)",368.448598130841,0.333874597542301,107
+"152","IQ.CPA.FINQ.XQ","CPIA quality of budgetary and financial management rating (1=low to 6=high)",339.25,0.333980328489999,54
+"782","SL.EMP.INSV.FE.ZS","Share of women employed in the nonagricultural sector (% of total nonagricultural employment)",361.957142857143,0.334178630023825,70
+"567","DT.NFL.RDBC.CD","Net financial flows, RDB concessional (NFL, current US$)",341.310344827586,0.334914531521157,87
+"771","NV.SRV.TETC.KD.ZG","Services, etc., value added (annual % growth)",361.018867924528,0.335023243645854,159
+"828","SE.TER.TCHR.FE.ZS","Tertiary education, teachers (% female)",413.421052631579,0.335490263244305,19
+"620","GC.XPN.OTHR.ZS","Other expense (% of expense)",383.126582278481,0.33605959705598,79
+"431","ST.INT.RCPT.XP.ZS","International tourism, receipts (% of total exports)",360.402597402597,0.33665948193989,154
+"608","IC.BUS.NDNS.ZS","New business density (new registrations per 1,000 people ages 15-64)",384.833333333333,0.336713475805689,36
+"551","DC.DAC.GBRL.CD","Net bilateral aid flows from DAC donors, United Kingdom (current US$)",358.843137254902,0.336746224955302,102
+"566","DT.NFL.MOTH.CD","Net financial flows, others (NFL, current US$)",365.277777777778,0.337300911955757,108
+"446","SL.TLF.SECO.MA.ZS","Labor force with secondary education, male (% of male labor force)",382.866666666667,0.338225402373018,30
+"868","SL.UEM.PRIM.FE.ZS","Unemployment with primary education, female (% of female unemployment)",395.517857142857,0.338527293575002,56
+"156","IQ.CPA.TRAD.XQ","CPIA trade rating (1=low to 6=high)",360.84,0.338642696331099,50
+"416","BX.GSR.INSF.ZS","Insurance and financial services (% of service exports, BoP)",361.890243902439,0.338796429705972,123
+"737","SE.PRM.NENR.FE","School enrollment, primary, female (% net)",402.652173913043,0.338830905383615,23
+"809","IC.TAX.PAYM","Tax payments (number)",372.577981651376,0.339179004621602,109
+"119","FB.CBK.BRCH.P5","Commercial bank branches (per 100,000 adults)",359.895061728395,0.339251310167405,162
+"175","IC.IMP.DOCS","Documents to import (number)",390.261538461538,0.339257557366397,65
+"875","SL.UEM.TERT.MA.ZS","Unemployment with tertiary education, male (% of male unemployment)",399.75,0.339417239192568,56
+"373","TX.VAL.ICTG.ZS.UN","ICT goods exports (% of total goods exports)",377.584745762712,0.33970178487067,118
+"629","SL.TLF.PART.TL.FE.ZS","Part time employment, female (% of total part time employment)",372.884615384615,0.340967641537789,52
+"548","DC.DAC.SWEL.CD","Net bilateral aid flows from DAC donors, Sweden (current US$)",350.658536585366,0.341213965357493,82
+"82","GC.DOD.TOTL.GD.ZS","Central government debt, total (% of GDP)",322.02380952381,0.341298445081842,42
+"398","BX.GSR.FCTY.CD","Income receipts (BoP, current US$)",360.046357615894,0.341334945394089,151
+"533","DC.DAC.CECL.CD","Net bilateral aid flows from DAC donors, European Union institutions (current US$)",360.703703703704,0.341367980635877,135
+"873","SL.UEM.TERT.ZS","Unemployment with tertiary education (% of total unemployment)",394.8,0.341770586712073,60
+"1","NY.ADJ.NNTY.KD.ZG","Adjusted net national income (annual % growth)",381.316176470588,0.341771404587737,136
+"144","IQ.CPA.FINS.XQ","CPIA financial sector rating (1=low to 6=high)",367.033333333333,0.342617323662073,45
+"692","IC.PRP.PROC","Procedures to register property (number)",379.991803278689,0.343254732543222,61
+"375","BX.GSR.CCIS.ZS","ICT service exports (% of service exports, BoP)",366.923076923077,0.345165309077089,117
+"413","NY.GDP.DEFL.KD.ZG","Inflation, GDP deflator (annual %)",356.204678362573,0.345351752633566,171
+"258","BN.KLT.DINV.CD","Foreign direct investment, net (BoP, current US$)",362.47972972973,0.345947122850676,148
+"866","SH.TBS.CURE.ZS","Tuberculosis treatment success rate (% of registered cases)",375.773195876289,0.346052091373101,97
+"174","IC.EXP.DOCS","Documents to export (number)",383.105769230769,0.346471551522766,52
+"310","BX.GRT.EXTA.CD.WD","Grants, excluding technical cooperation (BoP, current US$)",337.215827338129,0.346513837588314,139
+"488","TX.VAL.MRCH.R2.ZS","Merchandise exports to developing economies in Europe & Central Asia (% of total merchandise exports)",353.773076923077,0.346518514145647,130
+"194","SL.EMP.MPYR.FE.ZS","Employers, female (% of employment)",419.425925925926,0.346555529031174,54
+"870","SL.UEM.SECO.ZS","Unemployment with secondary education (% of total unemployment)",389.35,0.347500431530854,60
+"654","DT.NFL.BOND.CD","Portfolio investment, bonds (PPG + PNG) (NFL, current US$)",388.438356164384,0.347784607390269,73
+"832","IC.ELC.TIME","Time required to get electricity (days)",385.518072289157,0.348791897115803,83
+"137","IC.IMP.COST.CD","Cost to import (US$ per container)",376.231707317073,0.349094964016215,164
+"563","DT.NFL.IMFC.CD","Net financial flows, IMF concessional (NFL, current US$)",350.985294117647,0.350388224042605,68
+"799","TM.TAX.TCOM.SM.AR.ZS","Tariff rate, applied, simple mean, primary products (%)",398.029411764706,0.350471296621275,34
+"871","SL.UEM.SECO.FE.ZS","Unemployment with secondary education, female (% of female unemployment)",399.982142857143,0.351673794836951,56
+"425","ST.INT.XPND.MP.ZS","International tourism, expenditures (% of total imports)",367.960526315789,0.352146859349194,152
+"78","IQ.WEF.CUST.XQ","Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)",385.837209302326,0.352588532969348,129
+"444","SL.TLF.SECO.ZS","Labor force with secondary education (% of total)",381.735294117647,0.352799779807053,34
+"539","DC.DAC.ITAL.CD","Net bilateral aid flows from DAC donors, Italy (current US$)",372.233766233766,0.353499128969687,77
+"139","IQ.CPA.BREG.XQ","CPIA business regulatory environment rating (1=low to 6=high)",368.15625,0.353541003476522,48
+"609","IC.BUS.NREG","New businesses registered (number)",393.361111111111,0.353624926628546,36
+"685","SE.PRM.TCHR.FE.ZS","Primary education, teachers (% female)",387.04,0.354056484835882,25
+"856","SE.PRM.TCAQ.MA.ZS","Trained teachers in primary education, male (% of male teachers)",362.727272727273,0.354712537475014,11
+"142","IQ.CPA.REVN.XQ","CPIA efficiency of revenue mobilization rating (1=low to 6=high)",359.35,0.35514772748135,40
+"466","SL.UEM.LTRM.ZS","Long-term unemployment (% of total unemployment)",357.666666666667,0.35531038988384,45
+"171","FB.CBK.DPTR.P3","Depositors with commercial banks (per 1,000 adults)",365.805555555556,0.35615188415042,72
+"374","TM.VAL.ICTG.ZS.UN","ICT goods imports (% total goods imports)",381.3515625,0.357866415798742,128
+"329","SE.PRM.GINT.FE.ZS","Gross intake rate in grade 1, female (% of relevant age group)",364.870967741935,0.358488147094816,31
+"724","FR.INR.RISK","Risk premium on lending (prime rate minus treasury bill rate, %)",367.608695652174,0.358884364206517,69
+"357","NE.CON.PRVT.KD.ZG","Household final consumption expenditure (annual % growth)",376.77027027027,0.359147618032386,148
+"524","DT.TDS.MLAT.PG.ZS","Multilateral debt service (% of public and publicly guaranteed debt service)",364.214953271028,0.359579944513511,107
+"802","TM.TAX.TCOM.WM.AR.ZS","Tariff rate, applied, weighted mean, primary products (%)",411,0.359785300002747,34
+"691","IC.WRH.PROC","Procedures to build a warehouse (number)",376.028735632184,0.36029944030407,87
+"61","FB.BNK.CAPA.ZS","Bank capital to assets ratio (%)",350.068181818182,0.360625952860932,44
+"401","SI.DST.05TH.20","Income share held by highest 20%",409.75,0.361350478917618,24
+"621","GC.XPN.OTHR.CN","Other expense (current LCU)",390.177215189873,0.361380806940263,79
+"363","NE.CON.PRVT.PC.KD.ZG","Household final consumption expenditure per capita growth (annual %)",377.234899328859,0.362046951954487,149
+"872","SL.UEM.SECO.MA.ZS","Unemployment with secondary education, male (% of male unemployment)",403.642857142857,0.362102176634886,56
+"862","TM.VAL.TRVL.ZS.WT","Travel services (% of commercial service imports)",373.097315436242,0.362871329950147,149
+"699","IC.CRD.PUBL.ZS","Public credit registry coverage (% of adults)",357.255555555556,0.363160349212208,90
+"837","IC.TAX.DURS","Time to prepare and pay taxes (hours)",386.132231404959,0.363448049656319,121
+"655","BN.KLT.PTXL.CD","Portfolio investment, excluding LCFAR (BoP, current US$)",384.419847328244,0.364020221872553,131
+"240","AG.CON.FERT.PT.ZS","Fertilizer consumption (% of fertilizer production)",395.74358974359,0.364086146231215,78
+"864","BM.GSR.TRVL.ZS","Travel services (% of service imports, BoP)",371.909395973154,0.364153539661115,149
+"291","SI.POV.GINI","GINI index",414.541666666667,0.364607796528795,24
+"537","DC.DAC.GRCL.CD","Net bilateral aid flows from DAC donors, Greece (current US$)",374.980769230769,0.36490758828776,52
+"860","BM.GSR.TRAN.ZS","Transport services (% of service imports, BoP)",382.493243243243,0.365392156354776,148
+"830","IC.WRH.DURS","Time required to build a warehouse (days)",384.649572649573,0.366731823003414,117
+"791","CM.MKT.TRNR","Stocks traded, turnover ratio (%)",407.712328767123,0.367253943642068,73
+"525","DT.TDS.MLAT.CD","Multilateral debt service (TDS, current US$)",350.240909090909,0.367716351662871,110
+"136","IC.EXP.COST.CD","Cost to export (US$ per container)",383.207317073171,0.369078300841621,164
+"400","SI.DST.10TH.10","Income share held by highest 10%",414.458333333333,0.369122893428502,24
+"564","DT.NFL.IMFN.CD","Net financial flows, IMF nonconcessional (NFL, current US$)",377.52688172043,0.370368655021183,93
+"858","TM.VAL.TRAN.ZS.WT","Transport services (% of commercial service imports)",385.405405405405,0.370626735548723,148
+"59","MS.MIL.MPRT.KD","Arms imports (constant 1990 US$)",391.04347826087,0.371455751335383,46
+"689","IC.CRD.PRVT.ZS","Private credit bureau coverage (% of adults)",395.269230769231,0.373779251922425,91
+"874","SL.UEM.TERT.FE.ZS","Unemployment with tertiary education, female (% of female unemployment)",408.178571428571,0.374199920267887,56
+"120","DT.NFL.PCBO.CD","Commercial banks and other lending (PPG + PNG) (NFL, current US$)",373.854545454545,0.37444395540339,110
+"30","AG.LND.IRIG.AG.ZS","Agricultural irrigated land (% of total agricultural land)",407.232558139535,0.374768023366216,43
+"532","DC.DAC.DNKL.CD","Net bilateral aid flows from DAC donors, Denmark (current US$)",377.959183673469,0.374970418685611,49
+"503","TM.VAL.MRCH.R4.ZS","Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports)",366.644171779141,0.375146665233359,163
+"581","DT.ODA.ODAT.XP.ZS","Net ODA received (% of central government expense)",369.363636363636,0.376006350463462,66
+"624","GC.TAX.OTHR.RV.ZS","Other taxes (% of revenue)",383.89010989011,0.376577909334044,91
+"212","SE.XPD.TERT.PC.ZS","Expenditure per student, tertiary (% of GDP per capita)",403.742857142857,0.377262307972489,35
+"76","FM.LBL.BMNY.ZG","Broad money growth (annual %)",370.625850340136,0.378690298313251,147
+"835","IC.EXP.DURS","Time to export (days)",383.792592592593,0.380017150011525,135
+"407","NV.IND.TOTL.KD.ZG","Industry, value added (annual % growth)",383.621118012422,0.381662235378697,161
+"129","TM.VAL.OTHR.ZS.WT","Computer, communications and other services (% of commercial service imports)",386.806666666667,0.383147914261619,150
+"89","BN.RES.INCL.CD","Changes in net reserves (BoP, current US$)",389.064935064935,0.384290607194707,154
+"117","NY.GDP.COAL.RT.ZS","Coal rents (% of GDP)",411.927536231884,0.384294403303483,69
+"678","SE.PRM.CMPT.FE.ZS","Primary completion rate, female (% of relevant age group)",387.619047619048,0.386070445565961,21
+"69","SH.STA.BRTC.ZS","Births attended by skilled health staff (% of total)",402.75,0.388887126426903,8
+"693","SE.SEC.PROG.ZS","Progression to secondary school (%)",382.722222222222,0.390507211384253,18
+"559","BN.KAC.EOMS.CD","Net errors and omissions, adjusted (BoP, current US$)",394.441558441558,0.390542442828952,154
+"463","IS.SHP.GCNW.XQ","Liner shipping connectivity index (maximum value in 2004 = 100)",386.015625,0.391545976231048,128
+"70","FB.CBK.BRWR.P3","Borrowers from commercial banks (per 1,000 adults)",382.592592592593,0.393238034452196,81
+"601","DT.NFL.UNTA.CD","Net official flows from UN agencies, UNTA (current US$)",388.079136690647,0.393300481617706,139
+"365","NE.CON.PETC.KD.ZG","Household final consumption expenditure, etc. (annual % growth)",394.241379310345,0.393591111830915,145
+"64","VC.BTL.DETH","Battle-related deaths (number of people)",375.272727272727,0.393906967679614,11
+"529","DC.DAC.AUTL.CD","Net bilateral aid flows from DAC donors, Austria (current US$)",400.306930693069,0.394710000732327,101
+"596","DT.NFL.UNFP.CD","Net official flows from UN agencies, UNFPA (current US$)",383.929824561404,0.395058046085184,114
+"576","GC.FIN.FRGN.GD.ZS","Net incurrence of liabilities, foreign (% of GDP)",414.986111111111,0.396017002982991,72
+"836","IC.IMP.DURS","Time to import (days)",395.532608695652,0.396909359376885,138
+"704","IQ.WEF.PORT.XQ","Quality of port infrastructure, WEF (1=extremely underdeveloped to 7=well developed and efficient by international standards)",402.162790697674,0.397677605919428,129
+"399","SI.DST.04TH.20","Income share held by fourth 20%",423.25,0.397691064403868,24
+"173","NY.GDP.DISC.CN","Discrepancy in expenditure estimate of GDP (current LCU)",383.6125,0.398057849503991,160
+"146","IQ.CPA.GNDR.XQ","CPIA gender equality rating (1=low to 6=high)",384.476744186047,0.399055331392837,43
+"417","BM.GSR.INSF.ZS","Insurance and financial services (% of service imports, BoP)",396.162162162162,0.399748958493142,148
+"383","NE.IMP.GNFS.KD.ZG","Imports of goods and services (annual % growth)",402.532467532468,0.400428167993775,154
+"664","SI.POV.RUHC","Poverty headcount ratio at rural poverty line (% of rural population)",418.333333333333,0.401741604360714,12
+"405","SI.DST.03RD.20","Income share held by third 20%",434.833333333333,0.401887169088335,24
+"154","IQ.CPA.PROT.XQ","CPIA social protection rating (1=low to 6=high)",375.593023255814,0.402133006686294,43
+"530","DC.DAC.BELL.CD","Net bilateral aid flows from DAC donors, Belgium (current US$)",389.534246575342,0.402213777399546,73
+"575","GC.FIN.DOMS.CN","Net incurrence of liabilities, domestic (current LCU)",424.684931506849,0.402518120340651,73
+"886","SN.ITK.VITA.ZS","Vitamin A supplementation coverage rate (% of children ages 6-59 months)",404.416666666667,0.403187699654153,24
+"535","DC.DAC.FRAL.CD","Net bilateral aid flows from DAC donors, France (current US$)",383.820895522388,0.404861310511411,134
+"247","NE.CON.TETC.KD.ZG","Final consumption expenditure, etc. (annual % growth)",392.113333333333,0.40542083245092,150
+"285","NE.CON.GOVT.KD.ZG","General government final consumption expenditure (annual % growth)",401.655405405405,0.406022594318905,148
+"679","SE.PRM.CMPT.MA.ZS","Primary completion rate, male (% of relevant age group)",382.761904761905,0.406536968471589,21
+"219","NE.EXP.GNFS.KD.ZG","Exports of goods and services (annual % growth)",401.87012987013,0.407140153545702,154
+"415","TM.VAL.INSF.ZS.WT","Insurance and financial services (% of commercial service imports)",398.864864864865,0.408269765704634,148
+"153","IQ.CPA.PADM.XQ","CPIA quality of public administration rating (1=low to 6=high)",372.846153846154,0.408317201379834,39
+"653","BX.PEF.TOTL.CD.WD","Portfolio equity, net inflows (BoP, current US$)",426.170454545455,0.408610500302626,88
+"658","SI.POV.NAGP","Poverty gap at national poverty line (%)",430.2,0.410102274428831,15
+"761","SE.SEC.ENRL.VO.FE.ZS","Secondary education, vocational pupils (% female)",412.685714285714,0.410233063227736,35
+"404","SI.DST.02ND.20","Income share held by second 20%",428.041666666667,0.411118080633922,24
+"854","SE.PRM.TCAQ.ZS","Trained teachers in primary education (% of total teachers)",405.809523809524,0.411201813715828,21
+"95","FM.AST.CGOV.ZG.M3","Claims on central government (annual growth as % of broad money)",387.551020408163,0.411539422023244,147
+"574","GC.FIN.DOMS.GD.ZS","Net incurrence of liabilities, domestic (% of GDP)",428.438356164384,0.412494474167867,73
+"241","AG.CON.FERT.ZS","Fertilizer consumption (kilograms per hectare of arable land)",402.06,0.413392959529135,150
+"812","GC.TAX.EXPT.ZS","Taxes on exports (% of tax revenue)",398.48,0.413636073921846,25
+"124","BM.GSR.CMCP.ZS","Communications, computer, etc. (% of service imports, BoP)",392.114093959732,0.414127593351902,149
+"403","SI.DST.FRST.20","Income share held by lowest 20%",433.875,0.414527681648338,24
+"714","FR.INR.RINR","Real interest rate (%)",382.323529411765,0.415505193469517,136
+"553","BN.TRF.KOGT.CD","Net capital account (BoP, current US$)",393.425925925926,0.416364216274326,108
+"475","NV.IND.MANF.KD.ZG","Manufacturing, value added (annual % growth)",402.477419354839,0.416540468000196,155
+"680","SE.PRM.CMPT.ZS","Primary completion rate, total (% of relevant age group)",411.555555555556,0.418653629812391,18
+"865","SH.TBS.DTEC.ZS","Tuberculosis case detection rate (%, all forms)",395.845528455285,0.41899490850955,123
+"238","SG.GEN.LSOM.ZS","Female legistlators, senior officials and managers (% of total)",423.423728813559,0.419281418652007,59
+"437","IE.PPI.ENGY.CD","Investment in energy with private participation (current US$)",463.888888888889,0.41998433482771,9
+"322","NE.GDI.FTOT.KD.ZG","Gross fixed capital formation (annual % growth)",403.15306122449,0.424968442290079,147
+"138","IQ.CPA.HRES.XQ","CPIA building human resources rating (1=low to 6=high)",381.933962264151,0.425261992078146,53
+"730","CM.MKT.INDX.ZG","S&P Global Equity Indices (annual % change)",445.901408450704,0.427546623730363,71
+"695","SE.SEC.PROG.MA.ZS","Progression to secondary school, male (%)",386.684210526316,0.427992701409238,19
+"660","SI.POV.URGP","Poverty gap at urban poverty line (%)",442.916666666667,0.428144477666336,12
+"694","SE.SEC.PROG.FE.ZS","Progression to secondary school, female (%)",407.263157894737,0.428198915860309,19
+"312","NE.GDI.TOTL.KD.ZG","Gross capital formation (annual % growth)",408.356666666667,0.430962701012059,150
+"150","IQ.CPA.PROP.XQ","CPIA property rights and rule-based governance rating (1=low to 6=high)",366.470588235294,0.432639466629961,34
+"402","SI.DST.FRST.10","Income share held by lowest 10%",438.041666666667,0.433056856484676,24
+"577","GC.FIN.FRGN.CN","Net incurrence of liabilities, foreign (current LCU)",428.833333333333,0.433783831593647,72
+"66","TM.TAX.MANF.BC.ZS","Binding coverage, manufactured products (%)",394.8,0.435144028866773,10
+"586","DT.ODA.OATL.KD","Net official aid received (constant 2009 US$)",417.809523809524,0.443004981645873,21
+"587","DT.ODA.OATL.CD","Net official aid received (current US$)",422.285714285714,0.446959497613563,21
+"579","SE.PRM.NINT.FE.ZS","Net intake rate in grade 1, female (% of official school-age population)",425.333333333333,0.449760272756442,18
+"780","TM.TAX.MANF.SR.ZS","Share of tariff lines with specific rates, manufactured products (%)",459.407407407407,0.451288549782635,27
+"813","GC.TAX.EXPT.CN","Taxes on exports (current LCU)",404.28,0.452459803298894,25
+"687","BN.KLT.PRVT.GD.ZS","Private capital flows, total (% of GDP)",400.027777777778,0.459534988160966,36
+"701","SE.XPD.TOTL.GB.ZS","Public spending on education, total (% of government expenditure)",428.02380952381,0.460074142920677,42
+"164","IT.PRT.NEWS.P3","Daily newspapers (per 1,000 people)",467.421052631579,0.460424567659719,38
+"356","SH.MED.BEDS.ZS","Hospital beds (per 1,000 people)",448,0.461794846556552,1
+"423","VC.IDP.TOTL.HE","Internally displaced persons (number, high estimate)",449,0.466206561774168,11
+"65","TM.TAX.MRCH.BC.ZS","Binding coverage, all products (%)",459.460526315789,0.466374189081182,38
+"67","TM.TAX.TCOM.BC.ZS","Binding coverage, primary products (%)",465.094594594595,0.466440879878592,37
+"592","DT.NFL.IAEA.CD","Net official flows from UN agencies, IAEA (current US$)",428.858695652174,0.468167214007717,92
+"43","NV.AGR.TOTL.KD.ZG","Agriculture, value added (annual % growth)",420.641975308642,0.475750903606235,162
+"580","SE.PRM.NINT.MA.ZS","Net intake rate in grade 1, male (% of official school-age population)",440.5,0.478443524356936,18
+"424","VC.IDP.TOTL.LE","Internally displaced persons (number, low estimate)",485.5,0.490572169768294,2
+"688","BN.KLT.PRVT.CD","Private capital flows, total (BoP, current US$)",409.567567567568,0.49078011160683,37
+"599","DT.NFL.UNPB.CD","Net official flows from UN agencies, UNPBF (current US$)",379.222222222222,0.497661273507867,9
+"594","DT.NFL.UNAI.CD","Net official flows from UN agencies, UNAIDS (current US$)",429.7125,0.501498693144863,80
+"578","SE.PRM.NINT.ZS","Net intake rate in grade 1 (% of official school-age population)",444.888888888889,0.504853323768148,18
+"797","TM.TAX.MRCH.SM.AR.ZS","Tariff rate, applied, simple mean, all products (%)",483.441176470588,0.527092315915728,34
+"637","SE.PRM.PRS5.ZS","Persistence to grade 5, total (% of cohort)",440.178571428571,0.530710657040045,14
+"639","SE.PRM.PRSL.MA.ZS","Persistence to last grade of primary, male (% of cohort)",476.714285714286,0.531013154708814,14
+"803","TM.TAX.MRCH.SM.FN.ZS","Tariff rate, most favored nation, simple mean, all products (%)",493.235294117647,0.537736443988422,34
+"855","SE.PRM.TCAQ.FE.ZS","Trained teachers in primary education, female (% of female teachers)",425.545454545455,0.538170766610928,11
+"635","SE.PRM.PRS5.FE.ZS","Persistence to grade 5, female (% of cohort)",486.5,0.567219475228869,12
+"659","SI.POV.RUGP","Poverty gap at rural poverty line (%)",512.166666666667,0.578557875580715,12
+"636","SE.PRM.PRS5.MA.ZS","Persistence to grade 5, male (% of cohort)",477.333333333333,0.591022087427897,12
+"638","SE.PRM.PRSL.FE.ZS","Persistence to last grade of primary, female (% of cohort)",507.642857142857,0.603626048591409,14
+"640","SE.PRM.PRSL.ZS","Persistence to last grade of primary, total (% of cohort)",529.954545454545,0.682565028307671,11
+"483","SH.STA.MMRT.NE","Maternal mortality ratio (national estimate, per 100,000 live births)",546,0.706311662824852,1

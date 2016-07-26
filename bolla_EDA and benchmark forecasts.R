@@ -259,7 +259,35 @@ for (country in 1:length(country.list)) {
 pred.accuracy.df <- pred.accuracy.df[,c("country", "pred.ind", "pred.var", "num.years", "p.val")]
 pred.accuracy.df.cp <- pred.accuracy.df
 
-pred.accuracy.df.cp$country.rank <- NA
+pred.accuracy.df$country.rank <- NA
+
+ranked.df <- data.frame(country = character(),
+                        pred.ind = character(),
+                        pred.var = character(),
+                        num.years = numeric(),
+                        p.val = numeric,
+                        country.rank = numeric()
+                        )
+
+for (country in 1:length(country.list)) {
+  temp.df <- pred.accuracy.df[pred.accuracy.df$country == country.list[country],]
+  temp.df$country.rank <- rank(temp.df$p.val, na.last = TRUE)
+  ranked.df <- rbind(ranked.df, temp.df)
+}
+
+count.df <- as.data.frame(aggregate(ranked.df$country.rank, by=list(ranked.df$pred.ind, ranked.df$pred.var), FUN = length))
+colnames(count.df) <- c("pred.ind", "pred.var", "country.count")
+
+rank.mean.df <- as.data.frame(aggregate(ranked.df$country.rank, by=list(ranked.df$pred.ind, ranked.df$pred.var), FUN = mean))
+colnames(rank.mean.df) <- c("pred.ind", "pred.var", "avg.rank")
+
+pval.mean.df <- as.data.frame(aggregate(ranked.df$p.val, by=list(ranked.df$pred.ind, ranked.df$pred.var), FUN = mean))
+colnames(pval.mean.df) <- c("pred.ind", "pred.var", "avg.pval")
+
+var.df <- left_join(rank.mean.df, pval.mean.df, by = c("pred.ind", "pred.var"))
+var.df <- left_join(var.df, count.df, by = c("pred.ind", "pred.var"))
+var.df <- var.df[order(var.df$avg.pval),]
+
 # # Let's attempt to remove the stationarity of the response using a simple moving average over 5 years
 # ma.us <- ma(us.response.ts.full, 5)
 # us.rand.component <- na.omit(us.response.ts.full - ma.us)
