@@ -1,4 +1,5 @@
 ########################################
+########################################
 # Packages
 ########################################
 require(WDI)
@@ -11,6 +12,9 @@ require(stringr)
 require(forecast)
 require(StatMeasures)
 require(psych)
+require(dtw)
+require(mclust)
+require(C50)
 ########################################
 # Get Data
 ########################################
@@ -38,11 +42,11 @@ View(gdp)
 gdp$missing = is.na(gdp$SL.GDP.PCAP.EM.KD)*1 # create missing flag
 # Group by country and sum missing GDP
 miss = gdp %>%
-group_by(country) %>%
-summarise(num_miss = sum(missing)) %>%
-arrange(desc(num_miss))
+  group_by(country) %>%
+  summarise(num_miss = sum(missing)) %>%
+  arrange(desc(num_miss))
 ggplot(filter(miss, num_miss > 0), aes(reorder(country, num_miss), num_miss)) +
-geom_bar(stat = "identity") + coord_flip()
+  geom_bar(stat = "identity") + coord_flip()
 ## Smallest number of GDP missing is 22, Drop all countries >=22
 # Filter on countries (43 of them) missing most GDP data
 drop = filter(miss, num_miss >= 22)
@@ -57,9 +61,9 @@ iqr.gdp = IQR(gdp$SL.GDP.PCAP.EM.KD) # inter quartile range
 gdp$gdp_outliers = ((gdp$SL.GDP.PCAP.EM.KD > uq + 1.5 * iqr.gdp) | (gdp$SL.GDP.PCAP.EM.KD < lq - 1.5 * iqr.gdp)) * 1
 # Group by country and sum missing GDP
 gdp.out = gdp %>%
-group_by(country) %>%
-summarise(gdp.outliers = sum(gdp_outliers)) %>%
-arrange(desc(gdp.outliers))
+  group_by(country) %>%
+  summarise(gdp.outliers = sum(gdp_outliers)) %>%
+  arrange(desc(gdp.outliers))
 View(gdp.out)
 View(gdp)
 gdp_HC = gdp[ ! gdp$year %in% c(2013,2014,2015), ]
@@ -100,11 +104,45 @@ plot(hc2)
 # Model Based Clustering
 library(mclust)
 fitMclust <- Mclust(distMatrix2)
-plot(fitMclust) # plot results
+plot(fitMclust, what="BIC") # plot results
 summary(fitMclust) # display the best model 
 hc2$MclustClass=fitMclust$classification
 plot(hc2)
-rect.hclust(hc2, k = 9, border = "red", cluster=hc2$MclustClass)
 hc3.csv=cbind(row.names(HCDS.mod11), hc2$MclustClass)
 View(hc3.csv)
 write.csv(hc3.csv, file = "hc3.csv")
+library(plyr)
+colnames(hc3.csv)=c("country", "cluster")
+hc3.csv=as.data.frame(hc3.csv)
+library(data.table)
+gdp_HC.df3=cbind(gdp_HC.df[,c(2:3)],gdp_HC.df2)
+gdp_HC.df4=gdp_HC.df[,c(2:23)]
+TS_DWT=gdp_HC.df4[order(gdp_HC.df4[,1], gdp_HC.df4[,2]),]
+TD_DWT=reshape(TS_DWT, idvar="country", timevar="year", direction="wide")
+TD_DWT.mod=t(TD_DWT)
+colnames(TD_DWT.mod) = TD_DWT.mod[1, ] # the first row will be the header
+TD_DWT.mod = TD_DWT.mod[-1, ]          # removing the first row.
+TD_DWT.mod2=TD_DWT.mod[order(row.names(TD_DWT.mod)), ]
+View(TD_DWT.mod2)
+TD_DWT.mod11=t(TD_DWT.mod2)
+TD_DWT.mod12=as.data.frame(TD_DWT.mod11)
+TD_DWT.mod13=setDT(TD_DWT.mod12, keep.rownames = TRUE)[]
+colnames(TD_DWT.mod13)[1] <- "country"
+clusteredData <- join(TD_DWT.mod13, hc3.csv, by='country', type='left', match='all')
+clusteredData.mod=as.data.frame(clusteredData)
+clusteredData.mod[]=lapply(clusteredData.mod, function(x) as.numeric(as.character(x)))
+clusteredData.mod=cbind(TD_DWT.mod13$country, clusteredData.mod[,c(2:442)])
+clusteredData.mod$cluster=factor(clusteredData.mod$cluster)
+library(C50)
+x.tree <- clusteredData.mod[,2:441]
+y.tree=clusteredData.mod[,442]
+model <- C50::C5.0( x.tree, y.tree )
+summary( model )
+tapply(clusteredData.mod$SL.EMP.TOTL.SP.FE.ZS.1996, clusteredData.mod$cluster, mean)
+tapply(clusteredData.mod$SL.UEM.1524.FE.ZS.2007, clusteredData.mod$cluster, mean)
+tapply(clusteredData.mod$SL.GDP.PCAP.EM.KD.2003, clusteredData.mod$cluster, mean)
+tapply(clusteredData.mod$SL.TLF.CACT.FE.ZS.1999, clusteredData.mod$cluster, mean)
+tapply(clusteredData.mod$SP.ADO.TFRT.1996, clusteredData.mod$cluster, mean)
+tapply(clusteredData.mod$SL.EMP.1524.SP.ZS.2012, clusteredData.mod$cluster, mean)
+tapply(clusteredData.mod$SL.EMP.TOTL.SP.ZS.1996, clusteredData.mod$cluster, mean)
+tapply(clusteredData.mod$SL.UEM.1524.ZS.1994, clusteredData.mod$cluster, mean)
