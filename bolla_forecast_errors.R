@@ -31,7 +31,15 @@ miss <- filter(num.missing, num_miss > 0)
 
 # Drop the countries that are missing GDP data
 response.df.dropna <- response.df[!(response.df$country %in% miss$country),]
+###
 
+### Create cluster info
+#####
+cluster.designation <- read.csv("hc3.csv")
+cluster.designation <- cluster.designation[,c("V1","V2")]
+colnames(cluster.designation) <- c("country", "cluster")
+cluster.designation[,"cluster"] <- as.factor(cluster.designation[,"cluster"])
+#####
 ### Create df for auto.arima (copy from Scott's code)
 #####
 filt_gdp = subset(gdp, !(country %in% miss$country))
@@ -84,6 +92,8 @@ for (country in 1:length(country.list)) {
     
     #Fit an arima to each country
     arima.fit <- auto.arima(arima.abbrev.df[,country.name])
+    print(arima.fit$arma)
+    print(arima.fit)
     forecasted.response <- as.data.frame(forecast(arima.fit, h=3)$mean)
     colnames(forecasted.response) <- "forecasted"
     country.arima.df <- cbind(actual.response, forecasted.response)
@@ -225,17 +235,58 @@ regression.accuracy.df <- regression.accuracy.df[,!colnames(regression.accuracy.
 regression.accuracy.df$num.models <- apply(regression.accuracy.df, 1, function(x) sum(!is.na(x)) - 1)
 
 full.accuracy.df <- left_join(accuracy.df, regression.accuracy.df, by=c("country"))
+full.accuracy.df <- left_join(cluster.designation[,c("country","cluster")], full.accuracy.df, by=c("country"))
 full.accuracy.df$best <- apply(full.accuracy.df, MARGIN = 1, FUN=function(x) colnames(full.accuracy.df)[which.min(x[2:ncol(full.accuracy.df)]) + 1])
 #p <- apply(full.accuracy.df, MARGIN = 1, FUN=function(x) unlist(series_ref[series_ref$series.indicator == x["best"], "series.name"]) 
 table(full.accuracy.df$best)
 full.accuracy.df[,c("country", "best")]
 
-for (column in 1:ncol(full.accuracy.df)){
-#for (column in 1:30){
-  if (!colnames(full.accuracy.df)[column] %in% c("country","num.models", "best") && sum(!is.na(full.accuracy.df[,column])) > 20 && max(full.accuracy.df[,column], na.rm=T) < 100) {
+
+#for (column in 1:ncol(full.accuracy.df)){
+for (column in 1:30){
+  if (!colnames(full.accuracy.df)[column] %in% c("country","num.models", "best","cluster") && sum(!is.na(full.accuracy.df[,column])) > 20 && max(full.accuracy.df[,column], na.rm=T) < 100) {
     model.name <- colnames(full.accuracy.df)[column]
-   print(histogram(~full.accuracy.df[,column], data=full.accuracy.df, breaks=c(0,1,2,5,10,15,20,25,50,75,100), type="count", xlab="MAPE", main=model.name, ylim=c(0,75)))
+   print(histogram(~full.accuracy.df[,column] | cluster, data=full.accuracy.df, breaks=c(0,1,2,5,10,15,20,25,50,75,100), type="count", xlab="MAPE", main=model.name, ylim=c(0,75)))
     }
 }
-    
-    
+
+cluster1.df <- full.accuracy.df[full.accuracy.df$cluster == 1,]
+cluster2.df <- full.accuracy.df[full.accuracy.df$cluster == 2,]
+cluster3.df <- full.accuracy.df[full.accuracy.df$cluster == 3,]
+cluster4.df <- full.accuracy.df[full.accuracy.df$cluster == 4,]
+cluster5.df <- full.accuracy.df[full.accuracy.df$cluster == 5,]
+cluster6.df <- full.accuracy.df[full.accuracy.df$cluster == 6,]
+cluster7.df <- full.accuracy.df[full.accuracy.df$cluster == 7,]
+cluster8.df <- full.accuracy.df[full.accuracy.df$cluster == 8,]
+cluster9.df <- full.accuracy.df[full.accuracy.df$cluster == 9,]
+
+cluster.accuracy.df <- data.frame(cluster = character(), stringsAsFactors=FALSE)
+
+for (cluster in 1:length(unique(full.accuracy.df$cluster))) {
+  print(cluster)
+  cluster.name <- as.character(cluster)
+  cluster.subset.df <- full.accuracy.df[full.accuracy.df$cluster == cluster.name,]
+  cluster.accuracy.df[cluster,1] <- cluster.name
+
+  for (column in 1:length(cluster.subset.df)){
+    if (sum(is.na(cluster.subset.df[,column])) == 0 && (!colnames(cluster.subset.df)[column] %in% c("cluster", "year","country.region", "iso2c", "country", "num.models", "best"))) {
+      model.name <- colnames(cluster.subset.df)[column]
+      col.avg <- mean(cluster.subset.df[,column])
+      
+      cluster.accuracy.df[cluster.accuracy.df$cluster == cluster.name, paste("avg.", model.name, sep="")] <- col.avg
+    }
+  }
+}
+
+cluster.acc.df.t <- as.data.frame(t(cluster.accuracy.df[,-1]))
+cluster.acc.df.t$model <- rownames(cluster.acc.df.t)
+ranked.cluster1 <- cluster.acc.df.t[order(cluster.acc.df.t[,1]), c("model", "1")]
+ranked.cluster2 <- cluster.acc.df.t[order(cluster.acc.df.t[,2]), c("model", "2")]
+ranked.cluster3 <- cluster.acc.df.t[order(cluster.acc.df.t[,3]), c("model", "3")]
+ranked.cluster4 <- cluster.acc.df.t[order(cluster.acc.df.t[,4]), c("model", "4")]
+ranked.cluster5 <- cluster.acc.df.t[order(cluster.acc.df.t[,5]), c("model", "5")]
+ranked.cluster6 <- cluster.acc.df.t[order(cluster.acc.df.t[,6]), c("model", "6")]
+ranked.cluster7 <- cluster.acc.df.t[order(cluster.acc.df.t[,7]), c("model", "7")]
+ranked.cluster8 <- cluster.acc.df.t[order(cluster.acc.df.t[,8]), c("model", "8")]
+ranked.cluster9 <- cluster.acc.df.t[order(cluster.acc.df.t[,9]), c("model", "9")]
+
